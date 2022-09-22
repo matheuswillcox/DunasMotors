@@ -4,7 +4,7 @@ function AssistenciaTecnica() {
   return (
     <>
       <Container>
-        <div className="boxBarraLaranjaAssistencia">
+        <div id="assistencia" className="boxBarraLaranjaAssistencia">
           <div className="barraDeModelosAssitencia">
             <div className="box">
               <div className="modelos">Assistência Técnica</div>

@@ -1,12 +1,20 @@
 import { Container } from "./styled";
-import { modelsOverflow } from "../../DB";
+import { modelsOverflow, modelsOverflowFun } from "../../DB";
 import { useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 function BarraDeModelos() {
-  const [filter, setFilter] = useState("todos");
+  const [filterCF, setFilterCF] = useState("todos");
 
-  const filtered = modelsOverflow.find((item) => item.name === filter)?.image;
+  //const [filterFun, setFilterFun] = useState("todos");
+
+  const [filterType, setFilterType] = useState("cf");
+
+  const filtered = modelsOverflow.find((item) => item.name === filterCF)?.image;
+
+  const filteredFun = modelsOverflowFun.find(
+    (item) => item.name === filterCF
+  )?.image;
 
   const navigate = useNavigate();
 
@@ -22,173 +30,220 @@ function BarraDeModelos() {
       }, []),
     []
   );
+  const allFun = useMemo(
+    () =>
+      modelsOverflowFun.reduce((acc, next) => {
+        acc = [...acc, ...next.image];
+        return acc;
+      }, []),
+    []
+  );
 
   return (
     <>
       <Container>
-        <div className="boxBarraLaranja">
+        <div id="modelos" className="boxBarraLaranja">
           <div className="barraDeModelos">
             <div className="barraLaranja"></div>
             <div className="boxModelosEMarcas">
               <div className="modelos">MODELOS</div>
               <div className="marcas">
-                <div>CFMOTO</div>
-                <div>FUN MOTORS</div>
+                <div
+                  className={filterType === "cf" ? "orange" : ""}
+                  style={{ cursor: "pointer" }}
+                  onClick={() => {
+                    setFilterType("cf");
+                    setFilterCF("todos");
+                  }}
+                >
+                  CFMOTO
+                </div>
+                <div
+                  className={filterType === "fun" ? "orange" : ""}
+                  style={{ cursor: "pointer" }}
+                  onClick={() => {
+                    setFilterType("fun");
+                    setFilterCF("todos");
+                  }}
+                >
+                  FUN MOTORS
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <ul className="listaDeModelos">
-          <li className="lista" onClick={() => setFilter("todos")}>
-            TODOS
-          </li>
-          <li className="lista" onClick={() => setFilter("CFORCE")}>
-            CFORCE
-          </li>
-          <li className="lista" onClick={() => setFilter("UFORCE")}>
-            UFORCE
-          </li>
-          <li className="lista" onClick={() => setFilter("ZFORCE")}>
-            ZFORCE
-          </li>
-        </ul>
 
-        <div className="modelsCards">
-          <div className="boxQuads">
-            {filter === "todos"
-              ? allQuads.map((item) => {
-                  return (
-                    <>
-                      <div className="quadsCards">
-                        <img
-                          className="imageModels"
-                          src={item.img}
-                          key={item.id}
-                          alt="First slide"
-                          onClick={() =>
-                            handleClick(item.model, item.description, item.name)
-                          }
-                        />
-                        <div className="modelsNames">
-                          <p>{item.description}</p>
-                          <p>{item.model}</p>
-                        </div>
-                      </div>
-                    </>
-                  );
-                })
-              : filtered?.map((item) => {
-                return (
-                  <>
-                    <div className="quadsCards">
-                      <img
-                        className="imageModels"
-                        src={item.img}
-                        key={item.id}
-                        alt="First slide"
-                        onClick={() =>
-                          handleClick(item.model, item.description, item.name)
-                        }
-                      />
-                      <div className="modelsNames">
-                        <p>{item.description}</p>
-                        <p>{item.model}</p>
-                      </div>
-                    </div>
-                  </>
-                );
-              })}
-
-            {/* <img
-              className="imageModels"
-              alt="img"
-              src={
-                "https://api.dealersites.com.br/images/novos/cfmoto/models/original_model_1083.jpeg"
-              }
-            ></img>{" "}
-          </div>
-          <div className="boxCard">
-            <img
-              className="imageModels"
-              alt="img"
-              src={
-                "https://api.dealersites.com.br/images/novos/cfmoto/models/original_model_1084.jpeg"
-              }
-            ></img>{" "}
-          </div>
-          <div className="boxCard">
-            <img
-              className="imageModels"
-              alt="img"
-              src={
-                "https://api.dealersites.com.br/images/novos/cfmoto/models/original_model_1085.jpeg"
-              }
-            ></img>
-          </div>
-          <div className="boxCard">
-            <img
-              className="imageModels"
-              alt="img"
-              src={
-                "https://api.dealersites.com.br/images/novos/cfmoto/models/original_model_1086.jpeg"
-              }
-            ></img>
-          </div>
-          <div className="boxCard">
-            <img
-              className="imageModels"
-              alt="img"
-              src={
-                "https://api.dealersites.com.br/images/novos/cfmoto/models/original_model_1087.jpeg"
-              }
-            ></img>
-          </div>
-          <div className="boxCard">
-            <img
-              className="imageModels"
-              alt="img"
-              src={
-                "https://api.dealersites.com.br/images/novos/cfmoto/models/original_model_1092.jpeg"
-              }
-            ></img>
-          </div>
-          <div className="boxCard">
-            <img
-              className="imageModels"
-              alt="img"
-              src={
-                "https://api.dealersites.com.br/images/novos/cfmoto/models/original_model_1091.jpeg"
-              }
-            ></img>
-          </div>
-          <div className="boxCard">
-            <img
-              className="imageModels"
-              alt="img"
-              src={
-                "https://api.dealersites.com.br/images/novos/cfmoto/models/original_model_1088.jpeg"
-              }
-            ></img>
-          </div>
-          <div className="boxCard">
-            <img
-              className="imageModels"
-              alt="img"
-              src={
-                "https://api.dealersites.com.br/images/novos/cfmoto/models/original_model_1089.jpeg"
-              }
-            ></img>
-          </div>
-          <div className="boxCard">
-            <img
-              className="imageModels"
-              alt="img"
-              src={
-                "https://api.dealersites.com.br/images/novos/cfmoto/models/original_model_1090.jpeg"
-              }
-            ></img> */}
-          </div>
-        </div>
+        {filterType === "cf" ? (
+          <>
+            <ul className="listaDeModelos">
+              <li
+                className={filterCF === "todos" ? "orange" : "lista"}
+                onClick={() => setFilterCF("todos")}
+              >
+                TODOS
+              </li>
+              <li
+                className={filterCF === "CFORCE" ? "orange" : "lista"}
+                onClick={() => setFilterCF("CFORCE")}
+              >
+                CFORCE
+              </li>
+              <li
+                className={filterCF === "UFORCE" ? "orange" : "lista"}
+                onClick={() => setFilterCF("UFORCE")}
+              >
+                UFORCE
+              </li>
+              <li
+                className={filterCF === "ZFORCE" ? "orange" : "lista"}
+                onClick={() => setFilterCF("ZFORCE")}
+              >
+                ZFORCE
+              </li>
+            </ul>
+            <div className="modelsCards">
+              <div className="boxQuads">
+                {filterCF === "todos"
+                  ? allQuads.map((item) => {
+                      return (
+                        <>
+                          <div className="quadsCards">
+                            <img
+                              className="imageModels"
+                              src={item.img}
+                              key={item.id}
+                              alt="First slide"
+                              onClick={() =>
+                                handleClick(
+                                  item.model,
+                                  item.description,
+                                  item.name
+                                )
+                              }
+                            />
+                            <div className="modelsNames">
+                              <p>{item.description}</p>
+                              <p>{item.model}</p>
+                            </div>
+                          </div>
+                        </>
+                      );
+                    })
+                  : filtered?.map((item) => {
+                      return (
+                        <>
+                          <div className="quadsCards">
+                            <img
+                              className="imageModels"
+                              src={item.img}
+                              key={item.id}
+                              alt="First slide"
+                              onClick={() =>
+                                handleClick(
+                                  item.model,
+                                  item.description,
+                                  item.name
+                                )
+                              }
+                            />
+                            <div className="modelsNames">
+                              <p>{item.description}</p>
+                              <p>{item.model}</p>
+                            </div>
+                          </div>
+                        </>
+                      );
+                    })}
+              </div>
+            </div>
+          </>
+        ) : (
+          <>
+            <ul className="listaDeModelos">
+              <li
+                className={filterCF === "todos" ? "orange" : "lista"}
+                onClick={() => setFilterCF("todos")}
+              >
+                TODOS
+              </li>
+              <li
+                className={filterCF === "MINI-MOTOS" ? "orange" : "lista"}
+                onClick={() => setFilterCF("MINI-MOTOS")}
+              >
+                MINI-MOTOS
+              </li>
+              <li
+                className={
+                  filterCF === "MINI-QUADRICICLOS" ? "orange" : "lista"
+                }
+                onClick={() => setFilterCF("MINI-QUADRICICLOS")}
+              >
+                MINI-QUADRICICLOS
+              </li>
+              <li
+                className={filterCF === "QUADRICICLOS" ? "orange" : "lista"}
+                onClick={() => setFilterCF("QUADRICICLOS")}
+              >
+                QUADRICICLOS
+              </li>
+            </ul>
+            <div className="modelsCards">
+              <div className="boxQuads">
+                {filterCF === "todos"
+                  ? allFun.map((item) => {
+                      return (
+                        <>
+                          <div className="quadsCards">
+                            <img
+                              className="imageModels"
+                              src={item.img}
+                              key={item.id}
+                              alt="First slide"
+                              onClick={() =>
+                                handleClick(
+                                  item.model,
+                                  item.description,
+                                  item.name
+                                )
+                              }
+                            />
+                            <div className="modelsNames">
+                              <p>{item.description}</p>
+                              <p>{item.model}</p>
+                            </div>
+                          </div>
+                        </>
+                      );
+                    })
+                  : filteredFun?.map((item) => {
+                      return (
+                        <>
+                          <div className="quadsCards">
+                            <img
+                              className="imageModels"
+                              src={item.img}
+                              key={item.id}
+                              alt="First slide"
+                              onClick={() =>
+                                handleClick(
+                                  item.model,
+                                  item.description,
+                                  item.name
+                                )
+                              }
+                            />
+                            <div className="modelsNames">
+                              <p>{item.description}</p>
+                              <p>{item.model}</p>
+                            </div>
+                          </div>
+                        </>
+                      );
+                    })}
+              </div>
+            </div>
+          </>
+        )}
       </Container>
     </>
   );

@@ -574,3 +574,99 @@ export const modelsOverflow = [
   }
 
 ]
+
+export const modelsOverflowFun = [
+
+  {
+    id: 1,
+    name: "MINI-MOTOS",
+    image: [
+      {
+        id: 11,
+        img: "https://www.funmotors.com.br/upload/produtos/thumb/laminha-49-2022-47-interno-094850.png",
+        model: "49",
+        description: "LAMINHA",
+      },
+      {
+        id: 12,
+        img: "https://www.funmotors.com.br/upload/produtos/thumb/laminha-60-59-interno-030648.png",
+        model: "60",
+        description: "LAMINHA",
+      },
+      {
+        id: 13,
+        img: "https://www.funmotors.com.br/upload/produtos/thumb/laminha-100-13-interno-032704.png",
+        model: "100",
+        description: "LAMINHA",
+      },
+      {
+        id: 14,
+        img: "https://www.funmotors.com.br/upload/produtos/thumb/raptor-125-2-interno-034226.png",
+        model: "125",
+        description: "RAPTOR",
+      },
+      {
+        id: 15,
+        img: "https://www.funmotors.com.br/upload/produtos/thumb/raptor-140-54-interno-035747.png",
+        model: "140",
+        description: "RAPTOR",
+      },
+    ],
+  },
+  {
+    id: 2,
+    name: "MINI-QUADRICICLOS",
+    image: [
+      {
+        id: 21,
+        img: "https://www.funmotors.com.br/upload/produtos/thumb/ligeirinho-49-88-interno-083033.png",
+        model: "49",
+        description: "LIGEIRINHO",
+      },
+      {
+        id: 22,
+        img: "https://www.funmotors.com.br/upload/produtos/thumb/avalanche-90-51-interno-071222.png",
+        model: "90",
+        description: "AVALANCHE",
+      },
+      {
+        id: 23,
+        img: "https://www.funmotors.com.br/upload/produtos/thumb/taurus-110-98-interno-012221.png",
+        model: "110",
+        description: "TAURUS",
+      },
+    
+    ],
+  },
+  {
+    id: 3,
+    name: "QUADRICICLOS",
+    image: [
+      {
+        id: 31,
+        img: "https://www.funmotors.com.br/upload/produtos/thumb/alphacross-125-32-interno-111759.png",
+        model: "125",
+        description: "ALPHACROSS",
+      },
+      {
+        id: 32,
+        img: "https://www.funmotors.com.br/upload/produtos/thumb/farmer-200-51-interno-041731.png",
+        model: "200",
+        description: "FARMER",
+      },
+      {
+        id: 33,
+        img: "https://www.funmotors.com.br/upload/produtos/thumb/alphacross-125-ex-34-interno-101117.png",
+        model: "125EX",
+        description: "ALPHACROSS",
+      },
+      {
+        id: 34,
+        img: "https://www.funmotors.com.br/upload/produtos/thumb/temporario-92-interno-084426.png",
+        model: "110",
+        description: "RHINO",
+      },
+    ],
+  }
+
+]

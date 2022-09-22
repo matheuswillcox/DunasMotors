@@ -26,6 +26,7 @@ export const ContainerHeader = styled.div`
   }
   .listaDoMenu{
 
+
     font-size: small;
   }
 
@@ -67,6 +68,8 @@ export const ContainerHeader = styled.div`
   }
   .listaDoMenu{
     font-family: "Eurostile";
+    text-decoration: none;
+    color: #E3F4FF;
 
   }
 

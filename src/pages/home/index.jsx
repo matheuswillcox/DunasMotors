@@ -17,7 +17,7 @@ function Home() {
                 alt="img"
                 src={require("../../images/Fotos provisórias/uforce grey.png")}
               ></img>{" "}
-              <h3 className="h3DaHome">CFORCE</h3>
+              <h3 className="h3DaHome">UFORCE</h3>
               <p>SAIBA MAIS</p>
             </div>
             <div className="boxCard">

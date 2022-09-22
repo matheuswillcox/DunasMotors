@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   padding-top: 20px;
-  font-family: "Eurostile";
+  font-family: "Eurostile", "Open-sans";
   src: url("../../fonts/eurostile.otf") format("truetype");
   width: 100vw;
 
@@ -20,7 +20,7 @@ export const Container = styled.div`
       overflow-x: scroll;
       gap: 5px;
     }
-
+  
     .listaDeModelos {
       padding-top: 10px;
       display: flex;
@@ -41,9 +41,13 @@ export const Container = styled.div`
   }
 
   div {
-    font-family: "Eurostile";
-    color: #ff5500;
+    font-family: "Eurostile", "Open-sans";
+    color: #606060;
   }
+  .orange{
+      color: #ff5500;
+    }
+
 
   .modelsNames{
     display: flex;
@@ -111,6 +115,6 @@ export const Container = styled.div`
   .lista {
     cursor: pointer;
     font-family: "Eurostile";
-    color: #ff5500;
+    color:  #606060;
   }
 `;

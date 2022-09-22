@@ -55,7 +55,8 @@ export const ContainerHome = styled.div`
     margin: 0;
     padding: 100px 0 0 0;
     text-align: center;
-    background: url(${image});
+    //background: url(${image});
+    background: url("https://i.postimg.cc/2SXzMCsg/Landing2.png");
     background-size: cover;
 
   }

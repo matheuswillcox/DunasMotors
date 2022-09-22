@@ -4,7 +4,7 @@ function QuemSomos() {
   return (
     <>
       <Container>
-        <div className="boxBarraLaranjaQuemSomos">
+        <div id="quemSomos" className="boxBarraLaranjaQuemSomos">
           <div className="barraDeModelosQuemSomos">
             <div className="barraLaranja"></div>
             <div>QUEM SOMOS</div>
