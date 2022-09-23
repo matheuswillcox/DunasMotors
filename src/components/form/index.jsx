@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
-import { Container } from "./styled";
+import { ContainerForm } from "./styled";
 import emailjs from "emailjs-com";
 import {
   Button,
@@ -71,7 +71,7 @@ function Form2() {
   }
 
   return (
-    <Container>
+    <ContainerForm>
       <div className="boxForm">
         <h4 style={{ "font-family": "Eurostile" }} className="solicitar">
           Solicite uma proposta
@@ -194,7 +194,7 @@ function Form2() {
 
         </Box>
       </Modal>
-    </Container>
+    </ContainerForm>
   );
 }
 

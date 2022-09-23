@@ -22,13 +22,13 @@ export const Container = styled.div`
     }
   
     .listaDeModelos {
-      padding-top: 10px;
+
       display: flex;
       align-items: center;
-      gap: 0px;
-      justify-content: center;
       overflow-x: scroll;
-      padding-left: 0;
+      padding-left: 5px;      
+      font-size: 10px;
+      padding: 10px;
     }
     .lista {
       font-size: 12px;
@@ -97,7 +97,7 @@ export const Container = styled.div`
     padding-top: 30px;
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     justify-content: center;
   }
 

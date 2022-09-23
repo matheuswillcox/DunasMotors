@@ -2,26 +2,27 @@ import { ContainerFooter } from "./styled";
 import { BsInstagram, BsWhatsapp } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 
-
 function Footer() {
-
-
   return (
     <>
       <ContainerFooter>
         <div id="contato" className="containerFooter">
-        <div className="dadosDeContato">
-          Avenida Senador Virgílio Távora, 2001, Aldeota, CEP 60.170-079
+          <div className="dadosDeContato">
+            Avenida Senador Virgílio Távora, 2001, Aldeota, CEP 60.170-079
           </div>
           <div className="dadosDeContato"> Fortaleza/CE</div>
           <div className="dadosDeContato">E-mail: dunasmotors@hotmail.com</div>
           <div className="dadosDeContato">Fone: 3322-3322</div>
           <div className="divEmojis">
-            <a target="_blank" href="https://www.instagram.com/dunasmotors/" rel="noreferrer">
-            <BsInstagram className="emojis"/>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/dunasmotors/"
+              rel="noreferrer"
+            >
+              <BsInstagram className="emojis" />
             </a>
             <a href="mailto:dunas@dunas.com.br">
-            <MdEmail className="emojis" />
+              <MdEmail className="emojis" />
             </a>
             <BsWhatsapp className="emojis" />
           </div>

@@ -33,12 +33,6 @@ const Modelos = ({model, type}) => {
     setOpen(false);
   };
 
-  function openModal() {
-    setOpen(true);
-  }
-
-
-
   return (
     <div>
       <Container>

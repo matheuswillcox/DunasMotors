@@ -1,11 +1,10 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const ContainerForm = styled.div`
   width: auto;
   height: auto;
-
-  padding-left: 20px;
   border-radius: 0px;
+
 
   @font-face {
     font-family: "Eurostile";
