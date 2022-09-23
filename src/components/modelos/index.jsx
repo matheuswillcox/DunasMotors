@@ -6,8 +6,6 @@ import { useNavigate } from "react-router-dom";
 function BarraDeModelos() {
   const [filterCF, setFilterCF] = useState("todos");
 
-  //const [filterFun, setFilterFun] = useState("todos");
-
   const [filterType, setFilterType] = useState("cf");
 
   const filtered = modelsOverflow.find((item) => item.name === filterCF)?.image;
@@ -19,6 +17,7 @@ function BarraDeModelos() {
   const navigate = useNavigate();
 
   const handleClick = (item, model) => {
+
     navigate(`/modelos/${model}/${item}`);
   };
 

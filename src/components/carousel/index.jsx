@@ -11,8 +11,7 @@ function Carrossel({ model }) {
           <Carousel.Item key={item.id}>
             <img className="d-block w-100" src={item.img} alt="First slide" />
             <Carousel.Caption>
-              <h3>{item.model}</h3>
-              <p>{item.description}</p>
+      
             </Carousel.Caption>
           </Carousel.Item>
         ))}

@@ -7,18 +7,19 @@ function AssistenciaTecnica() {
         <div id="assistencia" className="boxBarraLaranjaAssistencia">
           <div className="barraDeModelosAssitencia">
             <div className="box">
-              <div className="modelos">Assistência Técnica</div>
+              <div className="modelos">OFICINA</div>
             </div>
             <div className="barraLaranja"></div>
           </div>
         </div>
         <p className="pSaibaMais">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, a!
-          Laboriosam, modi quas nesciunt eveniet dignissimos fugit distinctio
-          error nisi dolor magnam ab voluptatibus reiciendis eaque ut
-          consectetur similique magni?
+          A política de pós-venda foi definida em observação à
+          importância da oficina ser especializada no ramo do off road e
+          primando pela máxima atenção ao cliente, sendo designado parceiro
+          comercial com ampla expertise no setor. Endereço: Scuderia Racing Box
+          Av. Manoel Mavignier, nº 6323, Sabiaguaba – CEP: 60835-025 –
+          Fortaleza/CE Contato: (85) 99904 3323 
         </p>
-        <div className="pSaibaMais">SAIBA MAIS</div>
       </Container>
     </>
   );

@@ -24,10 +24,11 @@ function QuemSomos() {
             ></img>{" "}
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, a!
-            Laboriosam, modi quas nesciunt eveniet dignissimos fugit distinctio
-            error nisi dolor magnam ab voluptatibus reiciendis eaque ut
-            consectetur similique magni?
+            A DUNAS MOTORS em parceria com a CFMOTO e a FUNMOTORS, comercializa
+            produtos Off-Road para lazer, trabalho e infantil, fabricados no
+            Brasil, primando pela excelência de qualidade dos equipamentos,
+            especial atendimento na venda e eficiência no pós-venda, visando
+            proporcionar a melhor experiência aos seus clientes.
           </p>
         </div>
       </Container>

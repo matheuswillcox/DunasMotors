@@ -102,8 +102,8 @@ export const Container = styled.div`
   }
 
   .imageModels {
-    width: 230px;
-    height: 150px;
+    width: auto;
+    height: 200px;
     cursor: pointer;
   }
 

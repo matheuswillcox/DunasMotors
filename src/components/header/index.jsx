@@ -39,7 +39,7 @@ function Header() {
                     </li>
                     <li>
                       <a className="listaDoMenu" href="#assistencia">
-                        Assitência Técnica
+                        Oficina
                       </a>
                     </li>
                     <li>

@@ -18,7 +18,7 @@ function Home() {
                 src={require("../../images/Fotos provisórias/uforce grey.png")}
               ></img>{" "}
               <h3 className="h3DaHome">UFORCE</h3>
-              <p>SAIBA MAIS</p>
+              <p>600</p>
             </div>
             <div className="boxCard">
               <img
@@ -27,7 +27,7 @@ function Home() {
                 src={require("../../images/Fotos provisórias/cForce CAPA menor.png")}
               ></img>{" "}
               <h3 className="h3DaHome">CFORCE</h3>
-              <p>SAIBA MAIS</p>
+              <p>1000</p>
             </div>
             <div className="boxCard2">
               <img
@@ -36,7 +36,7 @@ function Home() {
                 src={require("../../images/Fotos provisórias/zforce red menor.png")}
               ></img>
               <h3 className="h3DaHome">ZFORCE</h3>
-              <p>SAIBA MAIS</p>
+              <p>1000 Sport</p>
             </div>
           </div>
         </div>

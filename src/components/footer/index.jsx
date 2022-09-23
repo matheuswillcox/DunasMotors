@@ -10,10 +10,11 @@ function Footer() {
     <>
       <ContainerFooter>
         <div id="contato" className="containerFooter">
-          <div className="dadosDeContato">FORTELEZA</div>
-          <div className="dadosDeContato">
-            RUA DA ESTRELA, 123 - Bairro - Fortaleza - CE
+        <div className="dadosDeContato">
+          Avenida Senador Virgílio Távora, 2001, Aldeota, CEP 60.170-079
           </div>
+          <div className="dadosDeContato"> Fortaleza/CE</div>
+          <div className="dadosDeContato">E-mail: dunasmotors@hotmail.com</div>
           <div className="dadosDeContato">Fone: 3322-3322</div>
           <div className="divEmojis">
             <a target="_blank" href="https://www.instagram.com/dunasmotors/" rel="noreferrer">

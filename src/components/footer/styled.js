@@ -1,12 +1,14 @@
 import styled from "styled-components";
 
 export const ContainerFooter = styled.div`
+
+
   @font-face {
     font-family: "Eurostile";
     src: url("../../fonts/eurostile.otf") format("truetype");
   }
   background-color: #000;
-  height: 230px;
+  height: 100%;
   padding-top: 20px;
 
 

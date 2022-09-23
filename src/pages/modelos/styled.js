@@ -17,6 +17,20 @@ export const Container = styled.div`
   background: url(${image});
   background-size: cover;
 
+  @media (max-width: 660px) {
+    height: auto;
+    .titleTop{
+      margin-top: 80px;
+    }
+  
+    .center {
+      flex-direction: column-reverse;
+ 
+      
+  }
+
+}
+
 
 
   .title {
@@ -24,16 +38,18 @@ export const Container = styled.div`
     color: #e3f4ff;
     font-size: 40px;
   }
-  .p{
+  .pButton{
     font-family: "Eurostile";
     color: #e3f4ff;
     font-size: 20px;
+    cursor: pointer;
 
   }
   .center {
     display: flex;
-    align-items: center;
+
+    align-items: flex-start;
     gap: 30px;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
 `;
