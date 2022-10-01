@@ -2,11 +2,6 @@ import styled from "styled-components";
 
 export const ContainerFooter = styled.div`
 
-
-  @font-face {
-    font-family: "Eurostile";
-    src: url("../../fonts/eurostile.otf") format("truetype");
-  }
   background-color: #000;
   height: 100%;
   padding-top: 20px;
@@ -21,7 +16,6 @@ export const ContainerFooter = styled.div`
   }
   .dadosDeContato {
     color: white;
-    font-family: "Eurostile";
   }
   .divEmojis {
     display: flex;

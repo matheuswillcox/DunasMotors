@@ -13,8 +13,7 @@ import {
 import { useState } from "react";
 import { Box } from "@mui/system";
 
-const Modelos = ({model, type}) => {
-
+const Modelos = ({ model, type }) => {
   const style = {
     position: "absolute",
     top: "50%",
@@ -37,39 +36,45 @@ const Modelos = ({model, type}) => {
     <div>
       <Container>
         <div className="titleTop">
-          <h2 className="title">{type} {model}</h2>
-          <p className="pButton" onClick={()=>setOpen(true)}>ESPECIFICAÇÕES TÉCNICAS</p>
+          <h2 className="title">
+            {type} {model}
+          </h2>
+          <p className="pButton" onClick={() => setOpen(true)}>
+            ESPECIFICAÇÕES TÉCNICAS
+          </p>
         </div>
         <div className="center">
           <Form />
-          <Carrossel model={model}  />
+          <Carrossel model={model} type={type} />
         </div>
         <Dialog
-        open={open}
-        onClose={handleClose}
-        aria-labelledby="alert-dialog-title"
-        aria-describedby="alert-dialog-description"
-      >
-        <DialogTitle id="alert-dialog-title">
-          {"ESPECIFICAÇÕES TÉCNICAS"}
-        </DialogTitle>
-        <DialogContent>
-          <DialogContentText id="alert-dialog-description">
-              <img  src={require(`../../data/${type}${model}/img.png`)} alt="" />
-          </DialogContentText>
-        </DialogContent>
-        <DialogActions>
-          <Button onClick={handleClose}>Voltar</Button>
-        </DialogActions>
-      </Dialog>
-      <Modal
-        aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description"
-      >
-        <Box sx={style}>
-
-        </Box>
-      </Modal>
+          open={open}
+          onClose={handleClose}
+          aria-labelledby="alert-dialog-title"
+          aria-describedby="alert-dialog-description"
+        >
+          <DialogTitle id="alert-dialog-title">
+            {"ESPECIFICAÇÕES TÉCNICAS"}
+          </DialogTitle>
+          <DialogContent>
+            <DialogContentText id="alert-dialog-description">
+              <img
+                src={require(`../../assets/images/${type}${model}/img.png`)}
+                alt=""
+              />
+            </DialogContentText>
+          </DialogContent>
+          <DialogActions>
+            <Button onClick={handleClose}>Voltar</Button>
+          </DialogActions>
+        </Dialog>
+        <Modal
+          open={open}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}></Box>
+        </Modal>
       </Container>
     </div>
   );

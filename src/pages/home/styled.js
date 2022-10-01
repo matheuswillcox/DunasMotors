@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import image from "../../images/imagens finais/Landing2.png";
 
 export const ContainerHome = styled.div`
   display: flex;
@@ -8,32 +7,22 @@ export const ContainerHome = styled.div`
   flex-direction: column;
   width: 100vw;
 
-  @media (max-width:660px) {
+  @media (max-width: 660px) {
     .containerHome {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    overflow-x: scroll;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      overflow-x: scroll;
+    }
+    .h3DaHome {
+      font-size: small;
+      color: #e3f4ff;
+      margin: 0;
+    }
   }
-  .h3DaHome{
-    font-family: "Eurostile";
-    font-size: small;
-    color: #e3f4ff;
-    margin: 0;
-  }
-
-}
-
-  @font-face {
-    font-family: "Eurostile";
-    src: url("../../fonts/eurostile.otf") format("truetype");
-
-  }
-
 
   p {
     color: #e3f4ff;
-    font-family: "Eurostile";
     font-size: small;
   }
 
@@ -55,10 +44,8 @@ export const ContainerHome = styled.div`
     margin: 0;
     padding: 100px 0 0 0;
     text-align: center;
-    //background: url(${image});
     background: url("https://i.postimg.cc/2SXzMCsg/Landing2.png");
     background-size: cover;
-
   }
 
   .boxCard {
@@ -83,15 +70,8 @@ export const ContainerHome = styled.div`
   .imageHome {
     width: 100%;
     height: 100%;
-    margin-top: 250px ;
-
+    margin-top: 250px;
   }
-  /* .barraDeModelos {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-  } */
 
   .barraLaranja {
     height: 15px;
@@ -100,11 +80,8 @@ export const ContainerHome = styled.div`
   }
 
   .h3DaHome {
-    font-family: "Eurostile";
     font-size: 25px;
     color: #e3f4ff;
     margin: 0;
-
   }
 `;
-

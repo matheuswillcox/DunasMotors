@@ -3,31 +3,14 @@ import styled from "styled-components";
 export const Container = styled.div`
   margin-top: 30px;
 
-  @font-face {
-    font-family: "Eurostile";
-    src: url("../../fonts/eurostile.otf") format("truetype");
-  }
-
-  @media (max-width: 660px) {
-    .boxBarraLaranjaQuemSomos {
-    }
-    .boxCentral {
-      padding-top: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-    }
-
-  }
   p {
     width: 50%;
     margin: 0;
-    font-family: "Eurostile";
     color: #ff5500;
+    padding: 20px;
+    text-align: justify;
   }
   div {
-    font-family: "Eurostile";
     color: #ff5500;
   }
 
@@ -69,5 +52,21 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  @media (max-width: 660px) {
+    .boxBarraLaranjaQuemSomos {
+    }
+    .boxCentral {
+      padding-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      p {
+        width: 90%
+      }
+    }
   }
 `;

@@ -5,28 +5,19 @@ export const ContainerForm = styled.div`
   height: auto;
   border-radius: 0px;
 
-
-  @font-face {
-    font-family: "Eurostile";
-    src: url("../../fonts/eurostile.otf") format("truetype");
-  }
-
   p {
     margin: 0;
-    font-family: "Eurostile";
     color: white;
   }
 
   @media (max-width: 660px) {
-
   }
 
   form {
     margin: 0;
   }
-  .error{
+  .error {
     font-size: 10px;
-    font-family: "Eurostile";
     color: white;
   }
   .errorForm {
@@ -36,14 +27,13 @@ export const ContainerForm = styled.div`
     gap: 10px;
     color: white;
   }
-  .errorTerms{
+  .errorTerms {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
     color: white;
-
   }
   .boxForm {
     width: 100%;
@@ -110,10 +100,8 @@ export const ContainerForm = styled.div`
     color: #ff5500;
   }
   .span {
-    font-family: "Eurostile";
     font-size: 10px;
     color: white;
-
   }
 
   .divCheck {
@@ -122,13 +110,12 @@ export const ContainerForm = styled.div`
     justify-content: flex-start;
     gap: 5px;
   }
-  .divCheckTerm{
+  .divCheckTerm {
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     gap: 5px;
-
   }
   .box {
     display: flex;

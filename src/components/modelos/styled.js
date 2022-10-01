@@ -4,8 +4,6 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   padding-top: 20px;
-  font-family: "Eurostile", "Open-sans";
-  src: url("../../fonts/eurostile.otf") format("truetype");
   width: 100vw;
 
   @media (max-width: 660px) {
@@ -20,13 +18,12 @@ export const Container = styled.div`
       overflow-x: scroll;
       gap: 5px;
     }
-  
-    .listaDeModelos {
 
+    .listaDeModelos {
       display: flex;
       align-items: center;
       overflow-x: scroll;
-      padding-left: 5px;      
+      padding-left: 5px;
       font-size: 10px;
       padding: 10px;
     }
@@ -41,21 +38,18 @@ export const Container = styled.div`
   }
 
   div {
-    font-family: "Eurostile", "Open-sans";
     color: #606060;
   }
-  .orange{
-      color: #ff5500;
-    }
+  .orange {
+    color: #ff5500;
+  }
 
-
-  .modelsNames{
+  .modelsNames {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5px;
     color: #606060;
-    
   }
 
   .barraDeModelos {
@@ -114,7 +108,6 @@ export const Container = styled.div`
 
   .lista {
     cursor: pointer;
-    font-family: "Eurostile";
-    color:  #606060;
+    color: #606060;
   }
 `;

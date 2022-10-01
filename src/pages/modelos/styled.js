@@ -2,10 +2,6 @@ import styled from "styled-components";
 import image from "../../images/imagens finais/Landing2.png";
 
 export const Container = styled.div`
-  @font-face {
-    font-family: "Eurostile";
-    src: url("../../fonts/eurostile.otf") format("truetype");
-  }
   padding: 100px 0 0 0;
   width: 100vw;
   height: 100vh;
@@ -29,12 +25,10 @@ export const Container = styled.div`
   }
 
   .title {
-    font-family: "Eurostile";
     color: #e3f4ff;
     font-size: 40px;
   }
   .pButton {
-    font-family: "Eurostile";
     color: #e3f4ff;
     font-size: 20px;
     cursor: pointer;

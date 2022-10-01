@@ -1,31 +1,20 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  font-family: "Eurostile";
-  src: url("../../fonts/eurostile.otf") format("truetype");
   display: flex;
   flex-direction: column;
   padding-top: 20px;
 
-  @media (max-width: 660px) {
-    align-items: center;
-    text-align: start;
-    .pSaibaMais {
-      text-align: start;
-    }
-  }
-
   p,
   div {
-    font-family: "Eurostile";
     color: #ff5500;
   }
 
   .pSaibaMais {
-    padding-top: 20px;
+    padding: 20px;
     width: 50%;
     margin: 0;
-    text-align: end;
+    text-align: justify;
   }
 
   .barraDeModelosAssitencia {
@@ -50,5 +39,12 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: flex-end;
+  }
+
+  @media (max-width: 660px) {
+    align-items: center;
+    .pSaibaMais {
+      width: 90%;
+    }
   }
 `;

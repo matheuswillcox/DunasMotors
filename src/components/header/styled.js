@@ -1,36 +1,23 @@
 import styled from "styled-components";
 
-
 export const ContainerHeader = styled.div`
-
-@font-face {
-  font-family: 'Eurostile';
-  src: url('../../fonts/eurostile.otf') format('truetype');
-
-  
-}
-
-@media (max-width: 660px) {
-    .image{
-        width: auto;
-        height: 80px;
+  @media (max-width: 660px) {
+    .image {
+      width: auto;
+      height: 80px;
     }
 
     .right {
-
-        overflow-x: scroll;
-  }
-
-  .top {
-    flex-direction: column;
-  }
-  .listaDoMenu{
-
-
-    font-size: small;
-  }
-
+      overflow-x: scroll;
     }
+
+    .top {
+      flex-direction: column;
+    }
+    .listaDoMenu {
+      font-size: small;
+    }
+  }
 
   .top {
     display: flex;
@@ -63,14 +50,11 @@ export const ContainerHeader = styled.div`
     flex-direction: row;
     gap: 20px;
     margin-bottom: 0;
-    color: #E3F4FF;
-
+    color: #e3f4ff;
   }
-  .listaDoMenu{
-    font-family: "Eurostile";
+  .listaDoMenu {
     text-decoration: none;
-    color: #E3F4FF;
-
+    color: #e3f4ff;
   }
 
   .right {
@@ -82,7 +66,7 @@ export const ContainerHeader = styled.div`
   .title,
   .phone {
     font-size: 20px;
-    color: #E3F4FF;
+    color: #e3f4ff;
   }
 
   .modelos {

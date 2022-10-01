@@ -48,7 +48,6 @@ function Form2() {
     setOpen(true);
   }
 
-
   const {
     register,
     handleSubmit,
@@ -73,9 +72,7 @@ function Form2() {
   return (
     <ContainerForm>
       <div className="boxForm">
-        <h4 style={{ "font-family": "Eurostile" }} className="solicitar">
-          Solicite uma proposta
-        </h4>
+        <h4 className="solicitar">Solicite uma proposta</h4>
         <form onSubmit={handleSubmit(sendForm)} className="formulario">
           <div className="formLeft">
             <div className="errorForm">
@@ -121,8 +118,10 @@ function Form2() {
                 <input type="checkbox" {...register("terms3")} />
                 <div className="divCheckTerm">
                   <span className="span">
-                    Declaro que li e concordo com os termos da <p style={{cursor: "pointer"}} onClick={openModal}><u>Política de
-                    Privacidade</u></p>
+                    Declaro que li e concordo com os termos da{" "}
+                    <p style={{ cursor: "pointer" }} onClick={openModal}>
+                      <u>Política de Privacidade</u>
+                    </p>
                   </span>
                   <div className="errorTerms">
                     {errors.terms3 && (
@@ -151,10 +150,7 @@ function Form2() {
                 {...register("sugestao")}
               />
             </div>
-            <button style={{ "font-family": "Eurostile" }} className="button">
-              {" "}
-              Enviar{" "}
-            </button>
+            <button className="button"> Enviar </button>
           </div>
         </form>
       </div>
@@ -190,9 +186,7 @@ function Form2() {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <Box sx={style}>
-
-        </Box>
+        <Box sx={style}></Box>
       </Modal>
     </ContainerForm>
   );

@@ -68,8 +68,8 @@ function Rotas() {
         element={<Modelos model={"140"} type={"RAPTOR"} />}
       ></Route>
       <Route
-        path="/modelos/ligeirinho/49l"
-        element={<Modelos model={"49l"} type={"LIGEIRINHO"} />}
+        path="/modelos/ligeirinho/49"
+        element={<Modelos model={"49"} type={"LIGEIRINHO"} />}
       ></Route>
       <Route
         path="/modelos/avalanche/90"

@@ -17,7 +17,6 @@ function BarraDeModelos() {
   const navigate = useNavigate();
 
   const handleClick = (item, model) => {
-
     navigate(`/modelos/${model}/${item}`);
   };
 
@@ -103,46 +102,36 @@ function BarraDeModelos() {
             <div className="modelsCards">
               <div className="boxQuads">
                 {filterCF === "todos"
-                  ? allQuads.map((item) => {
+                  ? allQuads.map((item, index) => {
                       return (
-                        <>
-                          <div className="quadsCards">
-                            <img
-                              className="imageModels"
-                              src={item.img}
-                              key={item.id}
-                              alt="First slide"
-                              onClick={() =>
-                                handleClick(
-                                  item.model,
-                                  item.description,
-                                  item.name
-                                )
-                              }
-                            />
-                            <div className="modelsNames">
-                              <p>{item.description}</p>
-                              <p>{item.model}</p>
-                            </div>
+                        <div className="quadsCards" key={index}>
+                          <img
+                            className="imageModels"
+                            src={item.img}
+                            key={item.id}
+                            alt="First slide"
+                            onClick={() =>
+                              handleClick(item.model, item.description)
+                            }
+                          />
+                          <div className="modelsNames">
+                            <p>{item.description}</p>
+                            <p>{item.model}</p>
                           </div>
-                        </>
+                        </div>
                       );
                     })
-                  : filtered?.map((item) => {
+                  : filtered?.map((item, index) => {
                       return (
                         <>
-                          <div className="quadsCards">
+                          <div className="quadsCards" key={index}>
                             <img
                               className="imageModels"
                               src={item.img}
                               key={item.id}
                               alt="First slide"
                               onClick={() =>
-                                handleClick(
-                                  item.model,
-                                  item.description,
-                                  item.name
-                                )
+                                handleClick(item.model, item.description)
                               }
                             />
                             <div className="modelsNames">
@@ -189,54 +178,42 @@ function BarraDeModelos() {
             <div className="modelsCards">
               <div className="boxQuads">
                 {filterCF === "todos"
-                  ? allFun.map((item) => {
+                  ? allFun.map((item, index) => {
                       return (
-                        <>
-                          <div className="quadsCards">
-                            <img
-                              className="imageModels"
-                              src={item.img}
-                              key={item.id}
-                              alt="First slide"
-                              onClick={() =>
-                                handleClick(
-                                  item.model,
-                                  item.description,
-                                  item.name
-                                )
-                              }
-                            />
-                            <div className="modelsNames">
-                              <p>{item.description}</p>
-                              <p>{item.model}</p>
-                            </div>
+                        <div className="quadsCards" key={index}>
+                          <img
+                            className="imageModels"
+                            src={item.img}
+                            key={item.id}
+                            alt="First slide"
+                            onClick={() =>
+                              handleClick(item.model, item.description)
+                            }
+                          />
+                          <div className="modelsNames">
+                            <p>{item.description}</p>
+                            <p>{item.model}</p>
                           </div>
-                        </>
+                        </div>
                       );
                     })
-                  : filteredFun?.map((item) => {
+                  : filteredFun?.map((item, index) => {
                       return (
-                        <>
-                          <div className="quadsCards">
-                            <img
-                              className="imageModels"
-                              src={item.img}
-                              key={item.id}
-                              alt="First slide"
-                              onClick={() =>
-                                handleClick(
-                                  item.model,
-                                  item.description,
-                                  item.name
-                                )
-                              }
-                            />
-                            <div className="modelsNames">
-                              <p>{item.description}</p>
-                              <p>{item.model}</p>
-                            </div>
+                        <div className="quadsCards" key={index}>
+                          <img
+                            className="imageModels"
+                            src={item.img}
+                            key={item.id}
+                            alt="First slide"
+                            onClick={() =>
+                              handleClick(item.model, item.description)
+                            }
+                          />
+                          <div className="modelsNames">
+                            <p>{item.description}</p>
+                            <p>{item.model}</p>
                           </div>
-                        </>
+                        </div>
                       );
                     })}
               </div>

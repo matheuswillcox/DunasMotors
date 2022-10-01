@@ -326,7 +326,7 @@ export const models = [
         img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29040.jpeg",
         model: "800",
         description: "ZFORCE",
-      }
+      },
     ],
   },
   {
@@ -483,8 +483,7 @@ export const models = [
         model: "u1000",
         description: "UFORCE",
       },
-      
-    ]
+    ],
   },
   {
     id: 11,
@@ -502,7 +501,7 @@ export const models = [
         model: "49",
         description: "LAMINHA",
       },
-    ]
+    ],
   },
   {
     id: 12,
@@ -520,7 +519,7 @@ export const models = [
         model: "60",
         description: "LAMINHA",
       },
-    ]
+    ],
   },
   {
     id: 13,
@@ -538,7 +537,7 @@ export const models = [
         model: "100",
         description: "LAMINHA",
       },
-    ]
+    ],
   },
   {
     id: 14,
@@ -556,7 +555,7 @@ export const models = [
         model: "125",
         description: "RAPTOR",
       },
-    ]
+    ],
   },
   {
     id: 15,
@@ -574,11 +573,11 @@ export const models = [
         model: "140",
         description: "RAPTOR",
       },
-    ]
+    ],
   },
   {
     id: 16,
-    name: "49l",
+    name: "49",
     image: [
       {
         id: 1,
@@ -592,7 +591,7 @@ export const models = [
         model: "49",
         description: "LIGEIRINHO",
       },
-    ]
+    ],
   },
   {
     id: 17,
@@ -610,7 +609,7 @@ export const models = [
         model: "90",
         description: "AVALANCHE",
       },
-    ]
+    ],
   },
   {
     id: 18,
@@ -628,7 +627,7 @@ export const models = [
         model: "110",
         description: "TAURUS",
       },
-    ]
+    ],
   },
   {
     id: 19,
@@ -646,7 +645,7 @@ export const models = [
         model: "125",
         description: "TAURUS",
       },
-    ]
+    ],
   },
   {
     id: 19,
@@ -664,7 +663,7 @@ export const models = [
         model: "200",
         description: "FARMER",
       },
-    ]
+    ],
   },
   {
     id: 20,
@@ -682,7 +681,7 @@ export const models = [
         model: "300",
         description: "FARMER",
       },
-    ]
+    ],
   },
   {
     id: 21,
@@ -700,7 +699,7 @@ export const models = [
         model: "125ex",
         description: "ALPHACROSS",
       },
-    ]
+    ],
   },
   {
     id: 22,
@@ -718,47 +717,11 @@ export const models = [
         model: "110",
         description: "RHINO",
       },
-    ]
+    ],
   },
-  
-  
-  
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ];
 
 export const modelsOverflow = [
-
   {
     id: 1,
     name: "CFORCE",
@@ -811,7 +774,6 @@ export const modelsOverflow = [
         model: "600",
         description: "UFORCE",
       },
-    
     ],
   },
   {
@@ -837,34 +799,10 @@ export const modelsOverflow = [
         description: "ZFORCE",
       },
     ],
-  }
-
-]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  },
+];
 
 export const modelsOverflowFun = [
-
   {
     id: 1,
     name: "MINI-MOTOS",
@@ -929,7 +867,6 @@ export const modelsOverflowFun = [
         model: "110r",
         description: "RHINO",
       },
-    
     ],
   },
   {
@@ -960,9 +897,6 @@ export const modelsOverflowFun = [
         model: "300",
         description: "FARMER",
       },
-
-
     ],
-  }
-
-]
+  },
+];

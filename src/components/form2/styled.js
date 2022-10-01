@@ -7,28 +7,17 @@ export const Container = styled.div`
   padding: 20px;
   border-radius: 0px;
 
-  @font-face {
-    font-family: "Eurostile";
-    src: url("../../fonts/eurostile.otf") format("truetype");
-  }
-
   p {
     margin: 0;
-    font-family: "Eurostile";
   }
 
-  @media (max-width: 660px) {
-    .formulario {
-      flex-direction: column;
-    }
-  }
+
 
   form {
     margin: 0;
   }
-  .error{
+  .error {
     font-size: 10px;
-    font-family: "Eurostile";
   }
   .errorForm {
     display: flex;
@@ -37,14 +26,13 @@ export const Container = styled.div`
     gap: 10px;
     color: white;
   }
-  .errorTerms{
+  .errorTerms {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
     color: white;
-
   }
   .boxForm {
     width: 100%;
@@ -63,6 +51,7 @@ export const Container = styled.div`
     height: 332px;
     align-items: flex-start;
     gap: 10px;
+    width: 400px;
   }
   .inputLeft {
     width: 100%;
@@ -110,10 +99,8 @@ export const Container = styled.div`
     color: #ff5500;
   }
   .span {
-    font-family: "Eurostile";
     font-size: 10px;
     color: white;
-
   }
 
   .divCheck {
@@ -122,13 +109,12 @@ export const Container = styled.div`
     justify-content: flex-start;
     gap: 5px;
   }
-  .divCheckTerm{
+  .divCheckTerm {
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     gap: 5px;
-
   }
   .box {
     display: flex;
@@ -141,5 +127,15 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+  }
+
+  @media (max-width: 660px) {
+    .formulario {
+      flex-direction: column;
+    }
+
+    .formLeft{
+      width: 100%;
+    }
   }
 `;
