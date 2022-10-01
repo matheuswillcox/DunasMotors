@@ -12,13 +12,6 @@ function Home() {
   return (
     <>
       <ContainerHome>
-        <button
-          onClick={() => {
-            document.getElementById("contato").scrollIntoView();
-          }}
-        >
-          xxx
-        </button>
         <div className="containerHome">
           <div className="topContainer">
             <div className="boxCard">
