@@ -9,12 +9,17 @@ export const Container = styled.div`
 
   p {
     margin: 0;
+
   }
 
 
 
   form {
     margin: 0;
+  }
+
+  .politica{
+    font-size: 10px;
   }
   .error {
     font-size: 10px;

@@ -27,6 +27,10 @@ export const ContainerForm = styled.div`
     gap: 10px;
     color: white;
   }
+
+  .politica{
+    font-size: 10px;
+  }
   .errorTerms {
     display: flex;
     flex-direction: column;

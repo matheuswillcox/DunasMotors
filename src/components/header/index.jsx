@@ -10,6 +10,7 @@ function Header() {
     navigate("/");
   };
 
+
   const NavOptions = [
     { id: 1, title: "Modelos", href: "#modelos" },
     { id: 2, title: "Quem Somos", href: "#quemSomos" },

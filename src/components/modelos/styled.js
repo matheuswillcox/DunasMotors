@@ -67,6 +67,7 @@ export const Container = styled.div`
     display: flex;
     overflow-x: auto;
     width: 100%;
+    
   }
 
   .marcas {
@@ -110,4 +111,11 @@ export const Container = styled.div`
     cursor: pointer;
     color: #606060;
   }
+
+  .quadsCards{
+    :hover{
+        transform: scale(1.1);
+    }
+  }
+
 `;

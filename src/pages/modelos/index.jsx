@@ -65,11 +65,11 @@ const Modelos = ({ model, type }) => {
             </DialogContentText>
           </DialogContent>
           <DialogActions>
-            <Button onClick={handleClose}>Voltar</Button>
+            <Button style={{color:"#ff5500"}} onClick={handleClose}>Voltar</Button>
           </DialogActions>
         </Dialog>
         <Modal
-          open={open}
+
           aria-labelledby="modal-modal-title"
           aria-describedby="modal-modal-description"
         >

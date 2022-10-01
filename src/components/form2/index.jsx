@@ -107,14 +107,14 @@ function Form2() {
                 <input type="checkbox" {...register("terms3")} />
                 <div className="divCheckTerm">
                   <span className="span">
-                    Declaro que li e concordo com os termos da{" "}
+                    Declaro que li e concordo com os termos da
                     <p style={{ cursor: "pointer" }} onClick={openModal}>
-                      <u>Política de Privacidade</u>
+                      <u className="politica">Política de Privacidade</u>
                     </p>
                   </span>
                   <div className="errorTerms">
                     {errors.terms3 && (
-                      <span className="error">
+                      <span className="error" style={{color:"black"}}>
                         {
                           "(É obrigatório aceitar os termos de Política de privacidade)"
                         }

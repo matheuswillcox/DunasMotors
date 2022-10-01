@@ -43,7 +43,7 @@ const GlobalStyle = createGlobalStyle`
     }
     button {
       cursor: pointer;
-      font-family: 'Chango', cursive;
+      font-family: 'Eurostile';
     }
 
 `;

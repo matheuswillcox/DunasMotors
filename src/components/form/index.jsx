@@ -48,6 +48,9 @@ function Form2() {
     setOpen(true);
   }
 
+
+
+  
   const {
     register,
     handleSubmit,
@@ -77,28 +80,30 @@ function Form2() {
           <div className="formLeft">
             <div className="errorForm">
               <p className="pForm">Nome</p>
-              {errors.nome && (
-                <span className="error">{"(Este campo é obrigatório)"}</span>
-              )}
             </div>
-            <input className="inputLeft" type="text" {...register("nome")} />
+            <input
+              className="inputLeft"
+              type="text"
+              {...register("nome")}
+              placeholder={errors.nome ? "Este campo é obrigatório" : ""}
+            />
             <div className="errorForm">
               <p className="pForm">Email</p>
-              {errors.email && (
-                <span className="error">{"(Este campo é obrigatório)"}</span>
-              )}
             </div>
-            <input className="inputLeft" type="text" {...register("email")} />
+            <input
+              className="inputLeft"
+              type="text"
+              {...register("email")}
+              placeholder={errors.email ? "Este campo é obrigatório" : ""}
+            />
             <div className="errorForm">
               <p className="pForm">Telefone</p>
-              {errors.telefone && (
-                <span className="error">{"(Este campo é obrigatório)"}</span>
-              )}
             </div>
             <input
               className="inputLeft"
               type="text"
               {...register("telefone")}
+              placeholder={errors.telefone ? "Este campo é obrigatório" : ""}
             />
 
             <div className="checkBox">
@@ -120,12 +125,12 @@ function Form2() {
                   <span className="span">
                     Declaro que li e concordo com os termos da{" "}
                     <p style={{ cursor: "pointer" }} onClick={openModal}>
-                      <u>Política de Privacidade</u>
+                    <u className="politica">Política de Privacidade</u>
                     </p>
                   </span>
                   <div className="errorTerms">
                     {errors.terms3 && (
-                      <span className="error">
+                      <span className="error" style={{color: "red"}}>
                         {
                           "(É obrigatório aceitar os termos de Política de privacidade)"
                         }
@@ -140,14 +145,13 @@ function Form2() {
             <div className="comentario">
               <div className="errorTems">
                 <p className="pForm">Modelo de interesse.</p>
-                {errors.sugestao && (
-                  <span className="error">{"(Este campo é obrigatório)"}</span>
-                )}
+            
               </div>
-              <input
+              <textarea
                 className="sugestao"
                 type="text"
                 {...register("sugestao")}
+                placeholder={errors.sugestao ? "Este campo é obrigatório" : ""}
               />
             </div>
             <button className="button"> Enviar </button>
@@ -179,7 +183,7 @@ function Form2() {
           </DialogContentText>
         </DialogContent>
         <DialogActions>
-          <Button onClick={handleClose}>Voltar</Button>
+          <Button style={{color: "#ff5500"}} onClick={handleClose}>Voltar</Button>
         </DialogActions>
       </Dialog>
       <Modal
