@@ -4,11 +4,21 @@ import { ContainerHome } from "./styled";
 import AssistenciaTecnica from "../../components/assistenciaTecnica";
 import Foto from "../../components/foto";
 import Form2 from "../../components/form2";
+import { useRef } from "react";
 
 function Home() {
+  const myRef = useRef(null);
+
   return (
     <>
       <ContainerHome>
+        <button
+          onClick={() => {
+            document.getElementById("contato").scrollIntoView();
+          }}
+        >
+          xxx
+        </button>
         <div className="containerHome">
           <div className="topContainer">
             <div className="boxCard">
@@ -31,6 +41,7 @@ function Home() {
             </div>
             <div className="boxCard2">
               <img
+                ref={myRef}
                 className="imageHome"
                 alt="img"
                 src={require("../../images/Fotos provisórias/zforce red menor.png")}

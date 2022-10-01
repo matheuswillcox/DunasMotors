@@ -23,6 +23,10 @@ const GlobalStyle = createGlobalStyle`
       font-family: 'Eurostile';
     }
 
+    .pointer{
+      cursor: pointer;
+    }
+
   
     body {
         -webkit-font-smoothing: antialiased;
