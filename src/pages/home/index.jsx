@@ -5,9 +5,13 @@ import AssistenciaTecnica from "../../components/assistenciaTecnica";
 import Foto from "../../components/foto";
 import Form2 from "../../components/form2";
 import { useRef } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
   const myRef = useRef(null);
+
+  const navigate = useNavigate();
+
 
   return (
     <>
@@ -19,6 +23,8 @@ function Home() {
                 className="imageHome"
                 alt="img"
                 src={require("../../images/Fotos provisórias/uforce grey.png")}
+                onClick={() =>  navigate(`/modelos/uforce/600`)}
+                
               />
               <h3 className="h3DaHome">UFORCE</h3>
               <p>600</p>
@@ -28,6 +34,7 @@ function Home() {
                 className="imageHome"
                 alt="img"
                 src={require("../../images/Fotos provisórias/cForce CAPA menor.png")}
+                onClick={() =>  navigate(`/modelos/cforce/1000`)}
               />
               <h3 className="h3DaHome">CFORCE</h3>
               <p>1000</p>
@@ -37,6 +44,7 @@ function Home() {
                 ref={myRef}
                 className="imageHome"
                 alt="img"
+                onClick={() =>  navigate(`/modelos/zforce/1000sport`)}
                 src={require("../../images/Fotos provisórias/zforce red menor.png")}
               />
               <h3 className="h3DaHome">ZFORCE</h3>

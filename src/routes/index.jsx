@@ -44,8 +44,8 @@ function Rotas() {
         element={<Modelos model={"600"} type={"UFORCE"} />}
       ></Route>
       <Route
-        path="/modelos/uforce/u1000"
-        element={<Modelos model={"u1000"} type={"UFORCE"} />}
+        path="/modelos/uforce/1000"
+        element={<Modelos model={"1000"} type={"UFORCE"} />}
       ></Route>
       <Route
         path="/modelos/laminha/49"
@@ -80,8 +80,8 @@ function Rotas() {
         element={<Modelos model={"110"} type={"TAURUS"} />}
       ></Route>
       <Route
-        path="/modelos/alphacross/125a"
-        element={<Modelos model={"125a"} type={"ALPHACROSS"} />}
+        path="/modelos/alphacross/125"
+        element={<Modelos model={"125"} type={"ALPHACROSS"} />}
       ></Route>
       <Route
         path="/modelos/alphacross/125ex"
@@ -96,8 +96,8 @@ function Rotas() {
         element={<Modelos model={"300"} type={"FARMER"} />}
       ></Route>
       <Route
-        path="/modelos/rhino/110r"
-        element={<Modelos model={"110r"} type={"RHINO"} />}
+        path="/modelos/rhino/110"
+        element={<Modelos model={"110"} type={"RHINO"} />}
       ></Route>
     </Routes>
   );

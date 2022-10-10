@@ -233,60 +233,60 @@ export const models = [
       },
     ],
   },
-  {
-    id: 6,
-    name: "550",
-    image: [
-      {
-        id: 1,
-        img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29035.jpeg",
-        model: "550",
-        description: "ZFORCE",
-      },
-      {
-        id: 2,
-        img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29031.jpeg",
-        model: "550",
-        description: "ZFORCE",
-      },
-      {
-        id: 3,
-        img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29034.jpeg",
-        model: "550",
-        description: "ZFORCE",
-      },
-      {
-        id: 4,
-        img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29036.jpeg",
-        model: "550",
-        description: "ZFORCE",
-      },
-      {
-        id: 5,
-        img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29033.jpeg",
-        model: "550",
-        description: "ZFORCE",
-      },
-      {
-        id: 6,
-        img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29037.jpeg",
-        model: "550",
-        description: "ZFORCE",
-      },
-      {
-        id: 7,
-        img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29030.jpeg",
-        model: "550",
-        description: "ZFORCE",
-      },
-      {
-        id: 8,
-        img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29032.jpeg",
-        model: "550",
-        description: "ZFORCE",
-      },
-    ],
-  },
+  // {
+  //   id: 6,
+  //   name: "550",
+  //   image: [
+  //     {
+  //       id: 1,
+  //       img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29035.jpeg",
+  //       model: "550",
+  //       description: "ZFORCE",
+  //     },
+  //     {
+  //       id: 2,
+  //       img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29031.jpeg",
+  //       model: "550",
+  //       description: "ZFORCE",
+  //     },
+  //     {
+  //       id: 3,
+  //       img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29034.jpeg",
+  //       model: "550",
+  //       description: "ZFORCE",
+  //     },
+  //     {
+  //       id: 4,
+  //       img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29036.jpeg",
+  //       model: "550",
+  //       description: "ZFORCE",
+  //     },
+  //     {
+  //       id: 5,
+  //       img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29033.jpeg",
+  //       model: "550",
+  //       description: "ZFORCE",
+  //     },
+  //     {
+  //       id: 6,
+  //       img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29037.jpeg",
+  //       model: "550",
+  //       description: "ZFORCE",
+  //     },
+  //     {
+  //       id: 7,
+  //       img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29030.jpeg",
+  //       model: "550",
+  //       description: "ZFORCE",
+  //     },
+  //     {
+  //       id: 8,
+  //       img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29032.jpeg",
+  //       model: "550",
+  //       description: "ZFORCE",
+  //     },
+  //   ],
+  // },
   {
     id: 7,
     name: "800",
@@ -439,48 +439,48 @@ export const models = [
   },
   {
     id: 10,
-    name: "u1000",
+    name: "1000",
     image: [
       {
         id: 1,
         img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29075.jpeg",
-        model: "u1000",
+        model: "1000",
         description: "UFORCE",
       },
       {
         id: 2,
         img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29072.jpeg",
-        model: "u1000",
+        model: "1000",
         description: "UFORCE",
       },
       {
         id: 3,
         img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29076.jpeg",
-        model: "u1000",
+        model: "1000",
         description: "UFORCE",
       },
       {
         id: 4,
         img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29074.jpeg",
-        model: "u1000",
+        model: "1000",
         description: "UFORCE",
       },
       {
         id: 5,
         img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29073.jpeg",
-        model: "u1000",
+        model: "1000",
         description: "UFORCE",
       },
       {
         id: 6,
         img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29069.jpeg",
-        model: "u1000",
+        model: "1000",
         description: "UFORCE",
       },
       {
         id: 7,
         img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29070.jpeg",
-        model: "u1000",
+        model: "1000",
         description: "UFORCE",
       },
     ],
@@ -631,19 +631,19 @@ export const models = [
   },
   {
     id: 19,
-    name: "125a",
+    name: "125",
     image: [
       {
         id: 1,
         img: "https://www.funmotors.com.br/upload/produtos/thumb/alphacross-125-32-interno-111759.png",
         model: "125",
-        description: "TAURUS",
+        description: "ALPHACROSS",
       },
       {
         id: 2,
         img: "https://www.funmotors.com.br/upload/cores/thumb/thumb-113222.png",
         model: "125",
-        description: "TAURUS",
+        description: "ALPHACROSS",
       },
     ],
   },
@@ -703,7 +703,7 @@ export const models = [
   },
   {
     id: 22,
-    name: "110r",
+    name: "110",
     image: [
       {
         id: 1,
@@ -775,7 +775,7 @@ export const modelsOverflow = [
       {
         id: 21,
         img: "https://api.dealersites.com.br/images/novos/cfmoto/models/original_model_1092.jpeg",
-        model: "u1000",
+        model: "1000",
         description: "UFORCE",
         category:"UFORCE",
         type: "cf",
@@ -794,14 +794,14 @@ export const modelsOverflow = [
     id: 3,
     name: "ZFORCE",
     image: [
-      {
-        id: 31,
-        img: "https://api.dealersites.com.br/images/novos/cfmoto/models/original_model_1088.jpeg",
-        model: "550",
-        description: "ZFORCE",
-        category:"ZFORCE",
-        type: "cf",
-      },
+      // {
+      //   id: 31,
+      //   img: "https://api.dealersites.com.br/images/novos/cfmoto/models/original_model_1088.jpeg",
+      //   model: "550",
+      //   description: "ZFORCE",
+      //   category:"ZFORCE",
+      //   type: "cf",
+      // },
       {
         id: 32,
         img: "https://api.dealersites.com.br/images/novos/cfmoto/models/original_model_1089.jpeg",
@@ -877,7 +877,7 @@ export const modelsOverflowFun = [
       {
         id: 21,
         img: "https://www.funmotors.com.br/upload/produtos/thumb/ligeirinho-49-88-interno-083033.png",
-        model: "49l",
+        model: "49",
         description: "LIGEIRINHO",
         category: "MINI-QUADRICICLOS",
         type: "fun",
@@ -901,7 +901,7 @@ export const modelsOverflowFun = [
       {
         id: 24,
         img: "https://www.funmotors.com.br/upload/produtos/thumb/temporario-92-interno-084426.png",
-        model: "110r",
+        model: "110",
         description: "RHINO",
         category: "MINI-QUADRICICLOS",
         type: "fun",
@@ -916,7 +916,7 @@ export const modelsOverflowFun = [
       {
         id: 31,
         img: "https://www.funmotors.com.br/upload/produtos/thumb/alphacross-125-32-interno-111759.png",
-        model: "125a",
+        model: "125",
         description: "ALPHACROSS",
         category: "QUADRICICLOS",
         type: "fun",

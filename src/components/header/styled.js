@@ -33,7 +33,8 @@ export const ContainerHeader = styled.div`
   }
 
   .image {
-    width: 180px;
+    width: 280px;
+    height: auto;
     cursor: pointer;
   }
   .left {

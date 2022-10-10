@@ -2,9 +2,9 @@ import styled from "styled-components";
 import image from "../../images/imagens finais/Landing2.png";
 
 export const Container = styled.div`
-  padding: 100px 0 0 0;
+  padding: 200px 0 0 0;
   width: 100vw;
-  height: 100vh;
+  height: auto;
 
   display: flex;
   align-items: center;
@@ -13,24 +13,22 @@ export const Container = styled.div`
   background: url(${image});
   background-size: cover;
 
-  @media (max-width: 660px) {
-    height: auto;
-    .titleTop {
-      margin-top: 80px;
+  .titleTop {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     }
-
-    .center {
-      flex-direction: column-reverse;
-    }
-  }
 
   .title {
+    font-size: 10px;
     color: #e3f4ff;
     font-size: 40px;
+
   }
   .pButton {
     color: #e3f4ff;
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;
   }
   .center {
@@ -39,5 +37,22 @@ export const Container = styled.div`
     align-items: center;
     gap: 30px;
     justify-content: flex-start;
+  }
+  @media (max-width: 660px) {
+    height: auto;
+    .titleTop {
+      margin-top: 80px;
+
+    }
+    .title{
+      font-size: 30px;
+    }
+    .pButton{
+      font-size: 12px;
+    }
+
+    .center {
+      flex-direction: column-reverse;
+    }
   }
 `;

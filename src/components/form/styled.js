@@ -47,6 +47,9 @@ export const ContainerForm = styled.div`
     align-items: center;
     justify-content: center;
     gap: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(0,0,0,0.2);
   }
 
   .formLeft {

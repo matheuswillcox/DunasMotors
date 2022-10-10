@@ -7,23 +7,9 @@ export const ContainerHome = styled.div`
   flex-direction: column;
   width: 100vw;
 
-  @media (max-width: 660px) {
-    .containerHome {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      overflow-x: scroll;
-    }
-    .h3DaHome {
-      font-size: small;
-      color: #e3f4ff;
-      margin: 0;
-    }
-  }
-
   p {
     color: #e3f4ff;
-    font-size: small;
+    font-size: 18px;
   }
 
   .topContainer {
@@ -71,6 +57,10 @@ export const ContainerHome = styled.div`
     width: 100%;
     height: 100%;
     margin-top: 250px;
+    cursor: pointer;
+    :hover {
+      transform: scale(1.2);
+    }
   }
 
   .barraLaranja {
@@ -80,8 +70,25 @@ export const ContainerHome = styled.div`
   }
 
   .h3DaHome {
-    font-size: 25px;
+    font-size: 35px;
     color: #e3f4ff;
     margin: 0;
+  }
+
+  @media (max-width: 660px) {
+    p{
+      font-size: 12px;
+    }
+    .containerHome {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      overflow-x: scroll;
+    }
+    .h3DaHome {
+      font-size: 18px;
+      color: #e3f4ff;
+      margin: 0;
+    }
   }
 `;
