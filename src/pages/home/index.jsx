@@ -34,10 +34,10 @@ function Home() {
                 className="imageHome"
                 alt="img"
                 src={require("../../images/Fotos provisórias/cForce CAPA menor.png")}
-                onClick={() =>  navigate(`/modelos/cforce/1000`)}
+                onClick={() =>  navigate(`/modelos/cforce/625`)}
               />
               <h3 className="h3DaHome">CFORCE</h3>
-              <p>1000</p>
+              <p>625</p>
             </div>
             <div className="boxCard2">
               <img

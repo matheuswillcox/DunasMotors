@@ -1,23 +1,9 @@
 import styled from "styled-components";
 
 export const ContainerHeader = styled.div`
-  @media (max-width: 660px) {
-    .image {
-      width: auto;
-      height: 80px;
-    }
-
-    .right {
-      overflow-x: scroll;
-    }
-
-    .top {
-      flex-direction: column;
-    }
-    .listaDoMenu {
-      font-size: small;
-    }
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   .top {
     display: flex;
@@ -33,7 +19,7 @@ export const ContainerHeader = styled.div`
   }
 
   .image {
-    width: 280px;
+    width: 350px;
     height: auto;
     cursor: pointer;
   }
@@ -71,5 +57,23 @@ export const ContainerHeader = styled.div`
   }
 
   .modelos {
+  }
+
+  @media (max-width: 660px) {
+    .image {
+      width: auto;
+      height: 80px;
+    }
+
+    .right {
+      overflow-x: scroll;
+    }
+
+    .top {
+      flex-direction: column;
+    }
+    .listaDoMenu {
+      font-size: small;
+    }
   }
 `;

@@ -157,8 +157,7 @@ function Form2() {
             privacidade e a segurança das informações que possa ter acesso em
             virtude da relação comercial para faturamento, meios de pagamento,
             endereço de entrega do produto, eventuais cobranças, jamais sendo
-            fornecidas a terceiros, optando inclusive por não coletar dados por
-            essa plataforma, direcionando o cliente para contato direto com os
+            fornecidas a terceiros, direcionando o cliente para contato direto com os
             colaboradores da empresa, que atuarão em total observância a Lei
             Geral de Proteção de Dados – Lei nº 13.709/2018, que regulamenta o
             trato de dados pessoais de clientes por parte de empresas públicas e

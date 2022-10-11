@@ -1,5 +1,4 @@
 import { ContainerHeader } from "./styled";
-import { FiPhone } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
 import IMAGE from "../../images/imagens finais/DM_logo_WHITE.png";
 
@@ -9,7 +8,6 @@ function Header() {
   const handleClick = () => {
     navigate("/");
   };
-
 
   const NavOptions = [
     { id: 1, title: "Modelos", href: "#modelos" },
@@ -36,7 +34,11 @@ function Header() {
                 <ul className="menuNavegacao">
                   {NavOptions.map((item) => (
                     <li key={item.id}>
-                      <a className="listaDoMenu" href={item.href}>
+                      <a
+                        onClick={handleClick}
+                        className="listaDoMenu"
+                        href={item.href}
+                      >
                         {item.title}
                       </a>
                     </li>
@@ -44,7 +46,6 @@ function Header() {
                 </ul>
               </nav>
               <h3 className="phone">
-                <FiPhone />
               </h3>
             </div>
           </div>

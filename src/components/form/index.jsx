@@ -64,10 +64,10 @@ function Form2() {
       .send("service_k4grc56", "template_7p99ma7", data, "solklG0BWBjrlim0r")
       .then(
         function (response) {
-          //console.log('SUCCESS!', response.status, response.text);
+
         },
         function (error) {
-          //console.log('FAILED...', error);
+
         }
       );
   }
@@ -130,7 +130,7 @@ function Form2() {
                   </span>
                   <div className="errorTerms">
                     {errors.terms3 && (
-                      <span className="error" style={{color: "red"}}>
+                      <span className="error" >
                         {
                           "(É obrigatório aceitar os termos de Política de privacidade)"
                         }
