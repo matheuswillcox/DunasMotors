@@ -24,7 +24,7 @@ function Footer() {
             <a href="mailto:dunasmotors@hotmail.com">
               <MdEmail className="emojis" />
             </a>
-            <a href="whatsapp://send?text=SUA_MENSAGEM_AQUI&phone=+5581996898720">
+            <a href="whatsapp://send?text=Olá Dunas Motors, gostaria de informações sobre seus produtos.&phone=+5581996898720">
               {" "}
               <BsWhatsapp className="emojis" />
             </a>
