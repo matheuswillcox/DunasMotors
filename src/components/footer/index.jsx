@@ -12,7 +12,7 @@ function Footer() {
           </div>
           <div className="dadosDeContato"> Fortaleza/CE</div>
           <div className="dadosDeContato">E-mail: dunasmotors@hotmail.com</div>
-          <div className="dadosDeContato">Fone: 3322-3322</div>
+          {/* <div className="dadosDeContato">Fone: 3322-3322</div> */}
           <div className="divEmojis">
             <a
               target="_blank"
