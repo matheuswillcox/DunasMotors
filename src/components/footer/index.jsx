@@ -21,10 +21,13 @@ function Footer() {
             >
               <BsInstagram className="emojis" />
             </a>
-            <a href="mailto:dunas@dunas.com.br">
+            <a href="mailto:dunasmotors@hotmail.com">
               <MdEmail className="emojis" />
             </a>
-            <BsWhatsapp className="emojis" />
+            <a href="whatsapp://send?text=SUA_MENSAGEM_AQUI&phone=+5581996898720">
+              {" "}
+              <BsWhatsapp className="emojis" />
+            </a>
           </div>
           <div className="dadosDeContato">Todos os direitos reservados</div>
         </div>
