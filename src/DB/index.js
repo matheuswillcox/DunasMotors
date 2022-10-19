@@ -47,48 +47,48 @@ export const models = [
       },
     ],
   },
-  {
-    id: 2,
-    name: "450s",
-    image: [
-      {
-        id: 1,
-        img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_28990.jpeg",
-        model: "450S",
-        description: "CFORCE",
-      },
-      {
-        id: 2,
-        img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_28989.jpeg",
-        model: "450S",
-        description: "CFORCE",
-      },
-      {
-        id: 3,
-        img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_28994.jpeg",
-        model: "450S",
-        description: "CFORCE",
-      },
-      {
-        id: 4,
-        img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_28993.jpeg",
-        model: "450S",
-        description: "CFORCE",
-      },
-      {
-        id: 5,
-        img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_28992.jpeg",
-        model: "450S",
-        description: "CFORCE",
-      },
-      {
-        id: 6,
-        img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_28991.jpeg",
-        model: "450S",
-        description: "CFORCE",
-      },
-    ],
-  },
+  // {
+  //   id: 2,
+  //   name: "450s",
+  //   image: [
+  //     {
+  //       id: 1,
+  //       img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_28990.jpeg",
+  //       model: "450S",
+  //       description: "CFORCE",
+  //     },
+  //     {
+  //       id: 2,
+  //       img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_28989.jpeg",
+  //       model: "450S",
+  //       description: "CFORCE",
+  //     },
+  //     {
+  //       id: 3,
+  //       img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_28994.jpeg",
+  //       model: "450S",
+  //       description: "CFORCE",
+  //     },
+  //     {
+  //       id: 4,
+  //       img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_28993.jpeg",
+  //       model: "450S",
+  //       description: "CFORCE",
+  //     },
+  //     {
+  //       id: 5,
+  //       img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_28992.jpeg",
+  //       model: "450S",
+  //       description: "CFORCE",
+  //     },
+  //     {
+  //       id: 6,
+  //       img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_28991.jpeg",
+  //       model: "450S",
+  //       description: "CFORCE",
+  //     },
+  //   ],
+  // },
   {
     id: 3,
     name: "520",
@@ -1130,14 +1130,14 @@ export const modelsOverflow = [
         category:"CFORCE",
         type: "cf",
       },
-      {
-        id: 12,
-        img: "https://api.dealersites.com.br/images/novos/cfmoto/models/original_model_1084.jpeg",
-        model: "450S",
-        description: "CFORCE",
-        category:"CFORCE",
-        type: "cf",
-      },
+      // {
+      //   id: 12,
+      //   img: "https://api.dealersites.com.br/images/novos/cfmoto/models/original_model_1084.jpeg",
+      //   model: "450S",
+      //   description: "CFORCE",
+      //   category:"CFORCE",
+      //   type: "cf",
+      // },
       {
         id: 13,
         img: "https://api.dealersites.com.br/images/novos/cfmoto/models/original_model_1085.jpeg",

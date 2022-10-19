@@ -58,9 +58,9 @@ function Form2() {
 
   return (
     <Container>
-      <div className="boxForm">
+      <div className="boxForm2">
         <h4 className="solicitar">CONTATO</h4>
-        <form onSubmit={handleSubmit(sendForm)} className="formulario">
+        <form onSubmit={handleSubmit(sendForm)} className="formulario2">
           <div className="formLeft">
             <div className="errorForm">
               <p className="pForm">Nome</p>

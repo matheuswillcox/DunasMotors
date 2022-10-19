@@ -5,7 +5,10 @@ export const Container = styled.div`
   flex-direction: column;
   padding-top: 20px;
 
-  p,
+  p{
+    color: #606060;
+  }
+
   div {
     color: #ff5500;
   }

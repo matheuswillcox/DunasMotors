@@ -4,6 +4,19 @@ export const ContainerHeader = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  .WA{
+    color: green;
+  }
+  .emojis{
+    width: 30px;
+    height: 30px;
+  }
 
   .top {
     display: flex;

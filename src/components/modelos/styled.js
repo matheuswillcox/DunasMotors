@@ -6,37 +6,6 @@ export const Container = styled.div`
   padding-top: 20px;
   width: 100vw;
 
-  @media (max-width: 660px) {
-    .barraLaranja {
-      height: 15px;
-      width: 50%;
-      background-color: #ff5500;
-      overflow-x: scroll;
-    }
-    .barraDeModelos {
-      display: flex;
-      overflow-x: scroll;
-      gap: 5px;
-    }
-
-    .listaDeModelos {
-      display: flex;
-      align-items: center;
-      overflow-x: scroll;
-      padding-left: 5px;
-      font-size: 10px;
-      padding: 10px;
-    }
-    .lista {
-      font-size: 12px;
-    }
-    .boxModelosEMarcas {
-      font-size: 12px;
-      margin-right: 2px;
-      gap: 0px;
-    }
-  }
-
   div {
     color: #606060;
   }
@@ -62,12 +31,6 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     gap: 30px;
-  }
-  .modelsCards {
-    display: flex;
-    overflow-x: auto;
-    width: 100%;
-    
   }
 
   .marcas {
@@ -104,6 +67,7 @@ export const Container = styled.div`
 
   .boxQuads {
     display: flex;
+    height: 120%;
     overflow-x: auto;
   }
 
@@ -112,10 +76,41 @@ export const Container = styled.div`
     color: #606060;
   }
 
-  .quadsCards{
-    :hover{
-        transform: scale(1.1);
+  .quadsCards {
+    :hover {
+      transition: transform 0.2s;
+      transform: scale(1.1);
     }
   }
 
+  @media (max-width: 660px) {
+    .barraLaranja {
+      height: 15px;
+      width: 50%;
+      background-color: #ff5500;
+      overflow-x: scroll;
+    }
+    .barraDeModelos {
+      display: flex;
+
+      gap: 5px;
+    }
+
+    .listaDeModelos {
+      display: flex;
+      align-items: center;
+      overflow-x: scroll;
+      padding-left: 5px;
+      font-size: 10px;
+      padding: 10px;
+    }
+    .lista {
+      font-size: 12px;
+    }
+    .boxModelosEMarcas {
+      font-size: 12px;
+      margin-right: 2px;
+      gap: 10px;
+    }
+  }
 `;

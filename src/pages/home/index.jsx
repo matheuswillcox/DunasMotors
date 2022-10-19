@@ -12,43 +12,41 @@ function Home() {
 
   const navigate = useNavigate();
 
-
   return (
     <>
       <ContainerHome>
         <div className="containerHome">
           <div className="topContainer">
-            <div className="boxCard">
+            <div className="boxCard1">
               <img
                 className="imageHome"
                 alt="img"
-                src={require("../../images/Fotos provisórias/uforce grey.png")}
-                onClick={() =>  navigate(`/modelos/uforce/600`)}
-                
+                src={require("../../images/Fotos provisórias/uforce grey quadrado.png")}
+                onClick={() => navigate(`/modelos/uforce/600`)}
               />
               <h3 className="h3DaHome">UFORCE</h3>
-              <p>600</p>
+    
             </div>
-            <div className="boxCard">
+            <div className="boxCard2">
               <img
                 className="imageHome"
                 alt="img"
-                src={require("../../images/Fotos provisórias/cForce CAPA menor.png")}
-                onClick={() =>  navigate(`/modelos/cforce/625`)}
+                src={require("../../images/Fotos provisórias/cForce CAPA menor quadrado.png")}
+                onClick={() => navigate(`/modelos/cforce/625`)}
               />
               <h3 className="h3DaHome">CFORCE</h3>
-              <p>625</p>
+         
             </div>
-            <div className="boxCard2">
+            <div className="boxCard3">
               <img
                 ref={myRef}
                 className="imageHome"
                 alt="img"
-                onClick={() =>  navigate(`/modelos/zforce/1000sport`)}
-                src={require("../../images/Fotos provisórias/zforce red menor.png")}
+                onClick={() => navigate(`/modelos/zforce/1000sport`)}
+                src={require("../../images/Fotos provisórias/ZFORCE 1000 SPORT R quadraro .png")}
               />
               <h3 className="h3DaHome">ZFORCE</h3>
-              <p>1000 Sport</p>
+
             </div>
           </div>
         </div>

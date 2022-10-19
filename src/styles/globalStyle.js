@@ -14,6 +14,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   * {
+      /* border: 1px red solid;     */
       margin: 0;
       padding: 0;
       box-sizing: border-box;

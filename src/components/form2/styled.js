@@ -39,7 +39,7 @@ export const Container = styled.div`
     gap: 10px;
     color: white;
   }
-  .boxForm {
+  .boxForm2 {
     width: 100%;
     height: 100%;
     display: flex;
@@ -67,7 +67,7 @@ export const Container = styled.div`
     color: white;
   }
 
-  .formulario {
+  .formulario2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -135,7 +135,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 660px) {
-    .formulario {
+    .formulario2 {
       flex-direction: column;
     }
 

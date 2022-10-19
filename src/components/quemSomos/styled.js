@@ -6,7 +6,7 @@ export const Container = styled.div`
   p {
     width: 50%;
     margin: 0;
-    color: #ff5500;
+    color: #606060;
     padding: 20px;
     text-align: justify;
   }

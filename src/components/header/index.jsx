@@ -1,7 +1,7 @@
 import { ContainerHeader } from "./styled";
 import { useNavigate } from "react-router-dom";
 import IMAGE from "../../images/imagens finais/DM_logo_WHITE.png";
-
+import { BsWhatsapp } from "react-icons/bs";
 function Header() {
   const navigate = useNavigate();
 
@@ -10,10 +10,10 @@ function Header() {
   };
 
   const NavOptions = [
-    { id: 1, title: "Modelos", href: "#modelos" },
-    { id: 2, title: "Quem Somos", href: "#quemSomos" },
-    { id: 3, title: "Oficina", href: "#assistencia" },
-    { id: 4, title: "Contato", href: "#contato" },
+    { id: 1, title: "MODELOS", href: "#modelos" },
+    { id: 2, title: "QUEM SOMOS", href: "#quemSomos" },
+    { id: 3, title: "OFICINA", href: "#assistencia" },
+    { id: 4, title: "CONTATO", href: "#contato" },
   ];
 
   return (
@@ -44,9 +44,11 @@ function Header() {
                     </li>
                   ))}
                 </ul>
+                <a className="WA" href="whatsapp://send?text=Olá Dunas Motors, gostaria de informações sobre seus produtos.&phone=+5581996898720">
+                  {" "}
+                  <BsWhatsapp className="emojis" />
+                </a>
               </nav>
-              <h3 className="phone">
-              </h3>
             </div>
           </div>
         </div>

@@ -25,7 +25,7 @@ function ModelsRender({ typeOptions, filterType, reducedQuads, filterCF }) {
             </li>
           ))}
       </ul>
-      <div className="modelsCards">
+
         <div className="boxQuads">
           {reducedQuads.filter(handleFilter).map((item, index) => {
             return (
@@ -45,7 +45,7 @@ function ModelsRender({ typeOptions, filterType, reducedQuads, filterCF }) {
             );
           })}
         </div>
-      </div>
+
     </>
   );
 }
