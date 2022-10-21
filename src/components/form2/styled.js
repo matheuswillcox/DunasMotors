@@ -58,7 +58,7 @@ export const Container = styled.div`
     gap: 10px;
     width: 400px;
   }
-  .inputLeft {
+  .inputLeft2 {
     width: 100%;
     height: 40px;
   }
@@ -74,7 +74,7 @@ export const Container = styled.div`
     gap: 10px;
     margin: 0;
   }
-  .formRight {
+  .formRight2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -139,7 +139,7 @@ export const Container = styled.div`
       flex-direction: column;
     }
 
-    .formLeft{
+    .formLeft2{
       width: 100%;
     }
   }

@@ -61,7 +61,7 @@ function Form2() {
       <div className="boxForm2">
         <h4 className="solicitar">CONTATO</h4>
         <form onSubmit={handleSubmit(sendForm)} className="formulario2">
-          <div className="formLeft">
+          <div className="formLeft2">
             <div className="errorForm">
               <p className="pForm">Nome</p>
             </div>
@@ -125,7 +125,7 @@ function Form2() {
               </div>
             </div>
           </div>
-          <div className="formRight">
+          <div className="formRight2">
             <div className="comentario">
               <div className="errorForm">
                 <p className="pForm">Comentário</p>

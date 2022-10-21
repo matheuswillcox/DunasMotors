@@ -41,7 +41,7 @@ export const ContainerForm = styled.div`
   }
   .boxForm {
     width: 100%;
-    height: 100%;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,7 +73,7 @@ export const ContainerForm = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     gap: 10px;
     margin: 0;
   }

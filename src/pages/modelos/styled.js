@@ -4,8 +4,7 @@ import image from "../../images/imagens finais/Landing2.png";
 export const Container = styled.div`
   padding: 200px 0 0 0;
   width: 100vw;
-  height: auto;
-
+  min-height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -33,7 +32,7 @@ export const Container = styled.div`
   }
   .center {
     display: flex;
-
+    height: 500px;
     align-items: center;
     gap: 30px;
     justify-content: flex-start;
