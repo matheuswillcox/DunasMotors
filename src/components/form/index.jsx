@@ -48,9 +48,6 @@ function Form2() {
     setOpen(true);
   }
 
-
-
-  
   const {
     register,
     handleSubmit,
@@ -63,12 +60,8 @@ function Form2() {
     emailjs
       .send("service_k4grc56", "template_7p99ma7", data, "solklG0BWBjrlim0r")
       .then(
-        function (response) {
-
-        },
-        function (error) {
-
-        }
+        function (response) {},
+        function (error) {}
       );
   }
 
@@ -125,12 +118,12 @@ function Form2() {
                   <span className="span">
                     Declaro que li e concordo com os termos da{" "}
                     <p style={{ cursor: "pointer" }} onClick={openModal}>
-                    <u className="politica">Política de Privacidade</u>
+                      <u className="politica">Política de Privacidade</u>
                     </p>
                   </span>
                   <div className="errorTerms">
                     {errors.terms3 && (
-                      <span className="error" >
+                      <span className="error">
                         {
                           "(É obrigatório aceitar os termos de Política de privacidade)"
                         }
@@ -145,7 +138,6 @@ function Form2() {
             <div className="comentario">
               <div className="errorTems">
                 <p className="pForm">Modelo de interesse.</p>
-            
               </div>
               <textarea
                 className="sugestao"
@@ -183,7 +175,9 @@ function Form2() {
           </DialogContentText>
         </DialogContent>
         <DialogActions>
-          <Button style={{color: "#ff5500"}} onClick={handleClose}>Voltar</Button>
+          <Button style={{ color: "#ff5500" }} onClick={handleClose}>
+            Voltar
+          </Button>
         </DialogActions>
       </Dialog>
       <Modal

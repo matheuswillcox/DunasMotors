@@ -4,7 +4,6 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   padding-top: 20px;
-  width: 100vw;
 
   div {
     color: #606060;
@@ -67,8 +66,9 @@ export const Container = styled.div`
 
   .boxQuads {
     display: flex;
-    height: 120%;
+    height: 300px;
     overflow-x: auto;
+    overflow-y: hidden;
   }
 
   .lista {
@@ -77,6 +77,10 @@ export const Container = styled.div`
   }
 
   .quadsCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     :hover {
       transition: transform 0.2s;
       transform: scale(1.1);

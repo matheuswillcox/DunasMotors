@@ -5,7 +5,6 @@ export const ContainerHome = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 100vw;
 
   p {
     color: #e3f4ff;
@@ -17,8 +16,7 @@ export const ContainerHome = styled.div`
     display: flex;
     align-items: center;
     flex-direction: row;
-    width: 100vw;
-
+    width: 100%;
   }
 
   .containerHome {
@@ -42,14 +40,11 @@ export const ContainerHome = styled.div`
     justify-content: end;
     flex-direction: column;
     gap: 10px;
-    width: 33% ;
+    width: 33%;
     height: 500px;
-    .imageHome{
+    .imageHome {
       width: 300px;
     }
-
-
-
   }
   .boxCard2 {
     display: flex;
@@ -57,13 +52,11 @@ export const ContainerHome = styled.div`
     justify-content: end;
     flex-direction: column;
     gap: 10px;
-    width: 33% ;
+    width: 33%;
     height: 500px;
-    .imageHome{
+    .imageHome {
       width: 300px;
     }
-
-
   }
   .boxCard3 {
     display: flex;
@@ -71,17 +64,14 @@ export const ContainerHome = styled.div`
     justify-content: end;
     flex-direction: column;
     gap: 10px;
-    width: 33% ;
+    width: 33%;
     height: 500px;
-    .imageHome{
+    .imageHome {
       width: 300px;
     }
-
-
   }
 
   .imageHome {
-
     cursor: pointer;
     :hover {
       transition: transform 0.2s;
@@ -102,16 +92,17 @@ export const ContainerHome = styled.div`
   }
 
   @media (max-width: 860px) {
-    p{
+    p {
       font-size: 12px;
     }
-    .boxCard1, .boxCard2, .boxCard3{
-      .imageHome{
+    .boxCard1,
+    .boxCard2,
+    .boxCard3 {
+      .imageHome {
         width: 100px;
       }
     }
- 
- 
+
     .containerHome {
       display: flex;
       align-items: center;

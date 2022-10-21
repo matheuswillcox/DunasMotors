@@ -9,6 +9,7 @@ export const Container = styled.div`
     color: #606060;
     padding: 20px;
     text-align: justify;
+    line-height: 1.3;
   }
   div {
     color: #ff5500;
@@ -65,7 +66,7 @@ export const Container = styled.div`
       flex-direction: column;
 
       p {
-        width: 90%
+        width: 90%;
       }
     }
   }

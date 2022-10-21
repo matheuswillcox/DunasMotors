@@ -1,24 +1,24 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 100vw;
-  height: auto;
+  height: 100%;
   background-color: #ff5500;
   padding: 20px;
   border-radius: 0px;
 
   p {
     margin: 0;
-
   }
 
-
+  .pForm {
+    margin: 10px 0;
+  }
 
   form {
     margin: 0;
   }
 
-  .politica{
+  .politica {
     font-size: 10px;
   }
   .error {
@@ -53,14 +53,20 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 332px;
+    height: 100%;
     align-items: flex-start;
     gap: 10px;
     width: 400px;
   }
-  .inputLeft2 {
+
+  .inputLeft {
     width: 100%;
     height: 40px;
+  }
+
+  .sugestao,
+  .inputLeft {
+    padding-left: 5px;
   }
 
   .solicitar {
@@ -69,7 +75,8 @@ export const Container = styled.div`
 
   .formulario2 {
     display: flex;
-    align-items: center;
+    height: 100%;
+    align-items: start;
     justify-content: center;
     gap: 10px;
     margin: 0;
@@ -87,10 +94,10 @@ export const Container = styled.div`
   .comentario {
     display: flex;
     flex-direction: column;
-    gap: 10px;
     align-items: flex-start;
   }
   .sugestao {
+    padding-top: 5px;
     width: 335px;
     height: 230px;
   }
@@ -127,6 +134,7 @@ export const Container = styled.div`
   }
 
   .checkBox {
+    margin-top: 5px;
     display: flex;
     gap: 10px;
     flex-direction: column;
@@ -139,8 +147,11 @@ export const Container = styled.div`
       flex-direction: column;
     }
 
-    .formLeft2{
+    .formLeft2 {
+      display: flex;
+      flex-direction: column;
       width: 100%;
+      align-items: center;
     }
   }
 `;
