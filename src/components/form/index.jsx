@@ -58,7 +58,7 @@ function Form2() {
     console.log(data);
 
     emailjs
-      .send("service_k4grc56", "template_7p99ma7", data, "solklG0BWBjrlim0r")
+      .send("service_3a18r4m", "template_dashv0u", data, "YBEYNaxIgeeB3ZfyP")
       .then(
         function (response) {},
         function (error) {}
