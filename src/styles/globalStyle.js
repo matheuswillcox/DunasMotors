@@ -1,10 +1,11 @@
 import { createGlobalStyle } from "styled-components";
+import EUROSTILE from "../assets/fonts/Eurostile.otf";
 
 const GlobalStyle = createGlobalStyle`
 
   @font-face {
     font-family: "Eurostile";
-    src: url("/src/assets/fonts/Eurostile.otf");
+    src: url('${EUROSTILE}');
   }
 
   :root {
