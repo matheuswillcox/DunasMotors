@@ -5,6 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
   padding-top: 20px;
 
+
   div {
     color: #606060;
   }

@@ -4,6 +4,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   padding: 200px 0 0 0;
   min-height: 100vh;
+
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -13,6 +14,7 @@ export const Container = styled.div`
 
   .titleTop {
     display: flex;
+    margin-top: 90px;
     align-items: center;
     flex-direction: column;
     justify-content: center;

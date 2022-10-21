@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const ContainerHeader = styled.div`
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,6 +30,7 @@ export const ContainerHeader = styled.div`
   .container {
     position: absolute;
     top: 0;
+
   }
 
   .image {
@@ -73,6 +75,7 @@ export const ContainerHeader = styled.div`
   }
 
   @media (max-width: 660px) {
+
     .image {
       width: auto;
       height: 80px;
