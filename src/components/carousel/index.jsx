@@ -2,7 +2,7 @@ import { Carousel } from "react-bootstrap";
 import { models } from "../../DB";
 import { Container } from "./styled";
 
-function Carrossel({ model, type }) {
+function Carrossel({ model, type, name }) {
   const filtered = models.find(
     (item) => item.name === model && item.image?.[0].description === type
   )?.image;

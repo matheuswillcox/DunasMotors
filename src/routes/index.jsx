@@ -48,6 +48,10 @@ function Rotas() {
         element={<Modelos model={"1000"} type={"UFORCE"} />}
       ></Route>
       <Route
+        path="/modelos/uforce/1000xl"
+        element={<Modelos model={"1000xl"} type={"UFORCE"} />}
+      ></Route>
+      <Route
         path="/modelos/laminha/49"
         element={<Modelos model={"49"} type={"LAMINHA"} />}
       ></Route>

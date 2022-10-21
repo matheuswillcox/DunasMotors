@@ -336,55 +336,55 @@ export const models = [
       {
         id: 1,
         img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29056.jpeg",
-        model: "1000sport",
+        model: "1000 sport",
         description: "ZFORCE",
       },
       {
         id: 2,
         img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29057.jpeg",
-        model: "1000sport",
+        model: "1000 sport",
         description: "ZFORCE",
       },
       {
         id: 3,
         img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29051.jpeg",
-        model: "1000sport",
+        model: "1000 sport",
         description: "ZFORCE",
       },
       {
         id: 4,
         img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29055.jpeg",
-        model: "1000sport",
+        model: "1000 sport",
         description: "ZFORCE",
       },
       {
         id: 5,
         img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29052.jpeg",
-        model: "1000sport",
+        model: "1000 sport",
         description: "ZFORCE",
       },
       {
         id: 6,
         img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29054.jpeg",
-        model: "1000sport",
+        model: "1000 sport",
         description: "ZFORCE",
       },
       {
         id: 7,
         img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29049.jpeg",
-        model: "1000sport",
+        model: "1000 sport",
         description: "ZFORCE",
       },
       {
         id: 8,
         img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29050.jpeg",
-        model: "1000sport",
+        model: "1000 sport",
         description: "ZFORCE",
       },
       {
         id: 9,
         img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29048.jpeg",
-        model: "1000sport",
+        model: "1000 sport",
         description: "ZFORCE",
       },
     ],
@@ -656,7 +656,7 @@ export const models = [
         img: "https://www.funmotors.com.br/upload/produtos/laminha-100-95-033525.jpeg",
         model: "100",
         description: "LAMINHA",
-      }
+      },
     ],
   },
   {
@@ -818,7 +818,7 @@ export const models = [
         img: "https://www.funmotors.com.br/upload/produtos/ligeirinho-49-2021-7-020947.jpeg",
         model: "49",
         description: "LIGEIRINHO",
-      }
+      },
     ],
   },
   {
@@ -1115,6 +1115,42 @@ export const models = [
       },
     ],
   },
+  {
+    id: 23,
+    name: "1000xl",
+    image: [
+      {
+        id: 1,
+        img: "https://www.cfmoto.com.br/wp-content/uploads/2022/09/WALLPAPER_0003_20220119_UFORCE1000-action-1780x1080.jpg",
+        model: "1000xl",
+        description: "UFORCE",
+      },
+      {
+        id: 2,
+        img: "https://www.cfmoto.com.br/wp-content/uploads/2022/09/WALLPAPER_0002_CFMOTO_ATV_UFORCE-1000-XL-2-copiar-1780x1080.jpg",
+        model: "1000xl",
+        description: "UFORCE",
+      },
+      {
+        id: 3,
+        img: "https://www.cfmoto.com.br/wp-content/uploads/2022/09/WALLPAPER_0001_CFMOTO_ATV_UFORCE-1000-XL-3-1780x1080.jpg",
+        model: "1000xl",
+        description: "UFORCE",
+      },
+      {
+        id: 4,
+        img: "https://www.cfmoto.com.br/wp-content/uploads/2022/09/WALLPAPER_0000_CFMOTO_ATV_UFORCE-1000-XL-4-1780x1080.jpg",
+        model: "1000xl",
+        description: "UFORCE",
+      },
+      {
+        id: 5,
+        img: "https://www.cfmoto.com.br/wp-content/uploads/2022/09/home_uforce_1000.png",
+        model: "1000xl",
+        description: "UFORCE",
+      },
+    ],
+  },
 ];
 
 export const modelsOverflow = [
@@ -1128,7 +1164,7 @@ export const modelsOverflow = [
         model: "450L",
         name: "450L",
         description: "CFORCE",
-        category:"CFORCE",
+        category: "CFORCE",
         type: "cf",
       },
       {
@@ -1137,7 +1173,7 @@ export const modelsOverflow = [
         model: "450S",
         name: "450S",
         description: "CFORCE",
-        category:"CFORCE",
+        category: "CFORCE",
         type: "cf",
       },
       {
@@ -1146,7 +1182,7 @@ export const modelsOverflow = [
         model: "520",
         name: "520",
         description: "CFORCE",
-        category:"CFORCE",
+        category: "CFORCE",
         type: "cf",
       },
       {
@@ -1155,7 +1191,7 @@ export const modelsOverflow = [
         model: "625",
         name: "625",
         description: "CFORCE",
-        category:"CFORCE",
+        category: "CFORCE",
         type: "cf",
       },
       {
@@ -1164,7 +1200,7 @@ export const modelsOverflow = [
         model: "1000",
         name: "1000",
         description: "CFORCE",
-        category:"CFORCE",
+        category: "CFORCE",
         type: "cf",
       },
     ],
@@ -1179,7 +1215,7 @@ export const modelsOverflow = [
         model: "1000",
         name: "1000",
         description: "UFORCE",
-        category:"UFORCE",
+        category: "UFORCE",
         type: "cf",
       },
       {
@@ -1188,7 +1224,16 @@ export const modelsOverflow = [
         model: "600",
         name: "600",
         description: "UFORCE",
-        category:"UFORCE",
+        category: "UFORCE",
+        type: "cf",
+      },
+      {
+        id: 23,
+        img: "https://www.cfmoto.com.br/wp-content/uploads/2022/09/home_uforce_1000.png",
+        model: "1000XL",
+        name: "1000XL",
+        description: "UFORCE",
+        category: "UFORCE",
         type: "cf",
       },
     ],
@@ -1207,11 +1252,11 @@ export const modelsOverflow = [
       // },
       {
         id: 32,
-        img: "https://files.fm/thumb_show.php?i=ya7ufmsnv",
+        img: "https://www.cfmoto.com.br/wp-content/uploads/2022/09/z800-home.png",
         model: "800",
         name: "800",
         description: "ZFORCE",
-        category:"ZFORCE",
+        category: "ZFORCE",
         type: "cf",
       },
       {
@@ -1220,7 +1265,7 @@ export const modelsOverflow = [
         model: "1000SPORT",
         name: "1000 SPORT",
         description: "ZFORCE",
-        category:"ZFORCE",
+        category: "ZFORCE",
         type: "cf",
       },
     ],
