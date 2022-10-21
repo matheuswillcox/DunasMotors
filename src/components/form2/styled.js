@@ -49,7 +49,7 @@ export const Container = styled.div`
     gap: 20px;
   }
 
-  .formLeft {
+  .formLeft2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -150,10 +150,10 @@ export const Container = styled.div`
     }
 
     .formLeft2 {
-      display: flex;
+
       flex-direction: column;
       width: 100%;
-      align-items: center;
+
     }
   }
 `;

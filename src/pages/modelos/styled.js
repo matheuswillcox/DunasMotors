@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import image from "../../images/imagens finais/Landing2.png";
+
 
 export const Container = styled.div`
   padding: 200px 0 0 0;
@@ -8,7 +8,7 @@ export const Container = styled.div`
   align-items: center;
   flex-direction: column;
   gap: 50px;
-  background: url(${image});
+  background: url("https://i.postimg.cc/2SXzMCsg/Landing2.png");
   background-size: cover;
 
   .titleTop {
