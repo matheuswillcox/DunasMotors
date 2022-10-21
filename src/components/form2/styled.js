@@ -143,6 +143,8 @@ export const Container = styled.div`
   }
 
   @media (max-width: 660px) {
+    align-items: center;
+    justify-content: center;
     .formulario2 {
       flex-direction: column;
     }

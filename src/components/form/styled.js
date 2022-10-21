@@ -85,6 +85,7 @@ export const ContainerForm = styled.div`
   .inputLeft {
     width: 100%;
     height: 40px;
+    padding-left: 5px;
   }
 
   .comentario {
@@ -92,10 +93,12 @@ export const ContainerForm = styled.div`
     flex-direction: column;
     gap: 10px;
     align-items: flex-start;
+    
   }
   .sugestao {
     width: 340px;
     height: 130px;
+    padding-left: 5px;
   }
 
   .button {
@@ -135,5 +138,16 @@ export const ContainerForm = styled.div`
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+  }
+
+  @media (max-width: 660px) {
+    .boxForm{
+      width: fit-content;
+      padding: 10px;
+    }
+    .sugestao{
+      width: 300px;
+    }
+
   }
 `;

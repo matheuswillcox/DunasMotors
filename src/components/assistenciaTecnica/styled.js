@@ -7,6 +7,7 @@ export const Container = styled.div`
 
   p{
     color: #606060;
+    line-height: 1.3;
   }
 
   div {

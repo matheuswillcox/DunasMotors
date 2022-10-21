@@ -30,7 +30,7 @@ export const Container = styled.div`
   }
   .center {
     display: flex;
-    height: 500px;
+    height: 650px;
     align-items: center;
     gap: 30px;
     justify-content: flex-start;
@@ -55,6 +55,8 @@ export const Container = styled.div`
     }
 
     .center {
+      justify-content: center;
+      align-items: center;
       flex-direction: column-reverse;
     }
   }
