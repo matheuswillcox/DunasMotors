@@ -1124,7 +1124,7 @@ export const modelsOverflow = [
     image: [
       {
         id: 11,
-        img: "https://photos.app.goo.gl/LGVBw9XfqEfEaG1z8",
+        img: "https://www.cfmoto.com.br/wp-content/uploads/2022/08/cforce_450l_laranja_side.png",
         model: "450L",
         name: "450L",
         description: "CFORCE",
@@ -1133,7 +1133,7 @@ export const modelsOverflow = [
       },
       {
         id: 12,
-        img: "https://photos.app.goo.gl/6w5gBy1B37NmbT7F9",
+        img: "https://www.cfmoto.com.br/wp-content/uploads/2022/08/cforce-450s_2022-azul_principal-1218x830-1.png",
         model: "450S",
         name: "450S",
         description: "CFORCE",
@@ -1142,7 +1142,7 @@ export const modelsOverflow = [
       },
       {
         id: 13,
-        img: "https://lh3.googleusercontent.com/pw/AL9nZEX_7jbojFiYOLdTjTfXAEQjoYq-jwLvoHvYxPqm6Vogjmc1OTZhcsUXx_UfPaGBIEQBtF2Qe3XCXUJhkORp2ACZM0uT_BH5PGme2H5k9lFUciEH3IrNfJYY364Mo2SaKFtS2mO5eAMk4FnKYCRHz5E=w890-h540-no?authuser=0",
+        img: "https://www.cfmoto.com.br/wp-content/uploads/2022/08/cforce_520L_2023_home_red-1.png",
         model: "520",
         name: "520",
         description: "CFORCE",
