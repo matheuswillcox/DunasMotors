@@ -39,7 +39,7 @@ function ModelsRender({ typeOptions, filterType, reducedQuads, filterCF }) {
                 />
                 <div className="modelsNames">
                   <p>{item.description}</p>
-                  <p>{item.model}</p>
+                  <p>{item.name}</p>
                 </div>
               </div>
             );
