@@ -42,7 +42,7 @@ function Home() {
                 ref={myRef}
                 className="imageHome"
                 alt="img"
-                onClick={() => navigate(`/modelos/zforce/1000sport`)}
+                onClick={() => navigate(`/modelos/zforce/1000sportr`)}
                 src={require("../../images/Fotos provisórias/ZFORCE 1000 SPORT R quadraro .png")}
               />
               <h3 className="h3DaHome">ZFORCE</h3>
