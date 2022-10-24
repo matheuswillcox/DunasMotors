@@ -9,15 +9,15 @@ function Rotas() {
       <Route path="/" element={<Home />}></Route>
       <Route
         path="/modelos/cforce/450l"
-        element={<Modelos model={"450l"} type={"CFORCE"} />}
+        element={<Modelos model={"450L"} type={"CFORCE"} />}
       ></Route>
       <Route
         path="/modelos/cforce/450s"
-        element={<Modelos model={"450s"} type={"CFORCE"} />}
+        element={<Modelos model={"450S"} type={"CFORCE"} />}
       ></Route>
       <Route
-        path="/modelos/cforce/520"
-        element={<Modelos model={"520"} type={"CFORCE"} />}
+        path="/modelos/cforce/520l"
+        element={<Modelos model={"520L"} type={"CFORCE"} />}
       ></Route>
       <Route
         path="/modelos/cforce/625"
@@ -32,12 +32,12 @@ function Rotas() {
         element={<Modelos model={"550"} type={"ZFORCE"} />}
       ></Route>
       <Route
-        path="/modelos/zforce/800"
-        element={<Modelos model={"800"} type={"ZFORCE"} />}
+        path="/modelos/zforce/800TRAIL"
+        element={<Modelos model={"800 TRAIL"} type={"ZFORCE"} />}
       ></Route>
       <Route
-        path="/modelos/zforce/1000sport"
-        element={<Modelos model={"1000sport"} type={"ZFORCE"} />}
+        path="/modelos/zforce/1000sportr"
+        element={<Modelos model={"1000 SPORT R"} type={"ZFORCE"} />}
       ></Route>
       <Route
         path="/modelos/uforce/600"
@@ -49,7 +49,7 @@ function Rotas() {
       ></Route>
       <Route
         path="/modelos/uforce/1000xl"
-        element={<Modelos model={"1000xl"} type={"UFORCE"} />}
+        element={<Modelos model={"1000XL"} type={"UFORCE"} />}
       ></Route>
       <Route
         path="/modelos/laminha/49"
@@ -89,7 +89,7 @@ function Rotas() {
       ></Route>
       <Route
         path="/modelos/alphacross/125ex"
-        element={<Modelos model={"125ex"} type={"ALPHACROSS"} />}
+        element={<Modelos model={"125EX"} type={"ALPHACROSS"} />}
       ></Route>
       <Route
         path="/modelos/farmer/200"
