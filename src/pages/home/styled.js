@@ -86,6 +86,7 @@ export const ContainerHome = styled.div`
   }
 
   .h3DaHome {
+
     font-size: 35px;
     color: #e3f4ff;
     margin: 0;

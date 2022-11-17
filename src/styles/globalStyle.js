@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 import EUROSTILE from "../assets/fonts/Eurostile.otf";
+import EUROSTILEBOLD from "../assets/fonts/Eurostile-bold.otf";
 
 const GlobalStyle = createGlobalStyle`
 
