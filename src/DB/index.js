@@ -227,60 +227,48 @@ export const models = [
       },
     ],
   },
-  // {
-  //   id: 6,
-  //   name: "550",
-  //   image: [
-  //     {
-  //       id: 1,
-  //       img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29035.jpeg",
-  //       model: "550",
-  //       description: "ZFORCE",
-  //     },
-  //     {
-  //       id: 2,
-  //       img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29031.jpeg",
-  //       model: "550",
-  //       description: "ZFORCE",
-  //     },
-  //     {
-  //       id: 3,
-  //       img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29034.jpeg",
-  //       model: "550",
-  //       description: "ZFORCE",
-  //     },
-  //     {
-  //       id: 4,
-  //       img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29036.jpeg",
-  //       model: "550",
-  //       description: "ZFORCE",
-  //     },
-  //     {
-  //       id: 5,
-  //       img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29033.jpeg",
-  //       model: "550",
-  //       description: "ZFORCE",
-  //     },
-  //     {
-  //       id: 6,
-  //       img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29037.jpeg",
-  //       model: "550",
-  //       description: "ZFORCE",
-  //     },
-  //     {
-  //       id: 7,
-  //       img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29030.jpeg",
-  //       model: "550",
-  //       description: "ZFORCE",
-  //     },
-  //     {
-  //       id: 8,
-  //       img: "https://api.dealersites.com.br/images/novos/cfmoto/models/foto730_29032.jpeg",
-  //       model: "550",
-  //       description: "ZFORCE",
-  //     },
-  //   ],
-  // },
+  {
+    id: 6,
+    name: "110",
+    image: [
+      {
+        id: 1,
+        img: "https://www.cfmoto.com.br/wp-content/uploads/2022/12/cforce-110-home.png",
+        model: "110",
+        description: "CFORCE",
+      },
+      {
+        id: 2,
+        img: "https://www.cfmoto.com.br/wp-content/uploads/2022/12/galeria_0002_CFORCE-110_Baja-Blue-51-1780x1080.jpg",
+        model: "110",
+        description: "CFORCE",
+      },
+      {
+        id: 3,
+        img: "https://www.cfmoto.com.br/wp-content/uploads/2022/12/galeria_0003_20220330_CFROCE-110%E5%A4%96%E6%99%AF5_%E6%8B%B7%E8%B4%9D-1780x1080.jpg",
+        model: "110",
+        description: "CFORCE",
+      },
+      {
+        id: 4,
+        img: "https://www.cfmoto.com.br/wp-content/uploads/2022/12/galeria_0001_Family-riding-47-1780x1080.jpg",
+        model: "110",
+        description: "CFORCE",
+      },
+      {
+        id: 5,
+        img: "https://www.cfmoto.com.br/wp-content/uploads/2022/12/galeria_0000_CFORCE-110-1-1780x1080.jpg",
+        model: "110",
+        description: "CFORCE",
+      },
+      {
+        id: 6,
+        img: "https://www.cfmoto.com.br/wp-content/uploads/2022/12/MY2023_CFORCE-110_Rocket-Red_Right_CE-copiar-1245x830.png.webp",
+        model: "110",
+        description: "CFORCE",
+      }
+    ],
+  },
   {
     id: 7,
     name: "800 TRAIL",
@@ -1104,6 +1092,15 @@ export const modelsOverflow = [
     id: 1,
     name: "CFORCE",
     image: [
+      {
+        id: 10,
+        img: "https://www.cfmoto.com.br/wp-content/uploads/2022/12/cforce-110-home.png",
+        model: "110",
+        name: "110",
+        description: "CFORCE",
+        category: "CFORCE",
+        type: "cf",
+      },
       {
         id: 11,
         img: "https://www.cfmoto.com.br/wp-content/uploads/2022/08/cforce_450l_laranja_side.png",

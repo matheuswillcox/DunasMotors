@@ -8,6 +8,10 @@ function Rotas() {
     <Routes>
       <Route path="/" element={<Home />}></Route>
       <Route
+        path="/modelos/cforce/110"
+        element={<Modelos model={"110"} type={"CFORCE"} />}
+      ></Route>
+      <Route
         path="/modelos/cforce/450l"
         element={<Modelos model={"450L"} type={"CFORCE"} />}
       ></Route>
