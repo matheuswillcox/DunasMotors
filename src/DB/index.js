@@ -1103,7 +1103,7 @@ export const modelsOverflow = [
       },
       {
         id: 11,
-        img: "https://www.cfmoto.com.br/wp-content/uploads/2022/08/cforce_450l_laranja_side.png",
+        img: "https://www.cfmoto.com.br/wp-content/uploads/2022/08/CFORCE-450-L-LARANJA-LATERAL-site.png",
         model: "450L",
         name: "450L",
         description: "CFORCE",
