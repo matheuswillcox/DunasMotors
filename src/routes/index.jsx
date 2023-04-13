@@ -31,6 +31,10 @@ function Rotas() {
         path="/modelos/cforce/1000"
         element={<Modelos model={"1000"} type={"CFORCE"} />}
       ></Route>
+        <Route
+        path="/modelos/cforce/ev110"
+        element={<Modelos model={"EV110"} type={"CFORCE"} />}
+      ></Route>
       <Route
         path="/modelos/zforce/550"
         element={<Modelos model={"550"} type={"ZFORCE"} />}

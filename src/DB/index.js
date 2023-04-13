@@ -1085,6 +1085,36 @@ export const models = [
       },
     ],
   },
+  {
+    id: 24,
+    name: "EV110",
+    image: [
+      {
+        id: 1,
+        img: "https://www.cfmoto.com.br/wp-content/uploads/2023/01/GALERIA-CFORCE-EV110_0000_CFORCE-EV-110_Polar-White-53-1780x1080.jpg",
+        model: "ev110",
+        description: "CFORCE",
+      },
+      {
+        id: 2,
+        img: "https://www.cfmoto.com.br/wp-content/uploads/2023/01/GALERIA-CFORCE-EV110_0003_CFORCE-EV-110_Polar-white-1780x1080.jpg",
+        model: "ev110",
+        description: "CFORCE",
+      },
+      {
+        id: 3,
+        img: "https://www.cfmoto.com.br/wp-content/uploads/2023/01/GALERIA-CFORCE-EV110_0002_CFORCE-EV-110_Polar-White-24-1780x1080.jpg",
+        model: "ev110",
+        description: "CFORCE",
+      },
+      {
+        id: 4,
+        img: "https://www.cfmoto.com.br/wp-content/uploads/2023/01/GALERIA-CFORCE-EV110_0001_CFORCE-EV-110_Polar-White-36-1780x1080.jpg",
+        model: "ev110",
+        description: "CFORCE",
+      },
+    ],
+  }
 ];
 
 export const modelsOverflow = [
@@ -1142,6 +1172,15 @@ export const modelsOverflow = [
         img: "https://api.dealersites.com.br/images/novos/cfmoto/models/original_model_1087.jpeg",
         model: "1000",
         name: "1000",
+        description: "CFORCE",
+        category: "CFORCE",
+        type: "cf",
+      },
+      {
+        id: 16,
+        img: "https://www.cfmoto.com.br/wp-content/uploads/2023/01/CFORCE-EV-110_HOME.png",
+        model: "EV110",
+        name: "EV110",
         description: "CFORCE",
         category: "CFORCE",
         type: "cf",
