@@ -16,7 +16,7 @@ function Footer() {
           <div className="divEmojis">
             <a
               target="_blank"
-              href="https://www.instagram.com/dunasmotors/"
+              href="https://www.instagram.com/dunascfmoto/"
               rel="noreferrer"
             >
               <BsInstagram className="emojis" />
@@ -29,7 +29,7 @@ function Footer() {
               <MdEmail className="emojis" />
             </a>
             <a
-              href="whatsapp://send?text=Olá Dunas Motors, gostaria de informações sobre seus produtos.&phone=+5585982331855"
+              href="whatsapp://send?text=Olá Dunas Motors, gostaria de informações sobre seus produtos.&phone=+558592584553"
               target="_blank"
               rel="noreferrer"
             >
