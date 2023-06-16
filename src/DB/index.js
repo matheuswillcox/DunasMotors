@@ -1261,7 +1261,7 @@ export const modelsOverflowFun = [
     image: [
       {
         id: 11,
-        img: "https://www.funmotors.com.br/upload/produtos/thumb/laminha-49-2022-47-interno-094850.png",
+        img: "https://www.funmotors.com.br/wp-content/uploads/2023/02/laminha-49-2022-47-interno-094850.png",
         model: "49",
         name: "49",
         description: "LAMINHA",
@@ -1270,7 +1270,7 @@ export const modelsOverflowFun = [
       },
       {
         id: 12,
-        img: "https://www.funmotors.com.br/upload/produtos/thumb/laminha-60-59-interno-030648.png",
+        img: "https://www.funmotors.com.br/wp-content/uploads/2023/02/laminha-60-59-interno-030648.png",
         model: "60",
         name: "60",
         description: "LAMINHA",
@@ -1279,7 +1279,7 @@ export const modelsOverflowFun = [
       },
       {
         id: 13,
-        img: "https://www.funmotors.com.br/upload/produtos/thumb/laminha-100-13-interno-032704.png",
+        img: "https://www.funmotors.com.br/wp-content/uploads/2023/02/laminha-100-13-interno-032704.png",
         model: "100",
         name: "100",
         description: "LAMINHA",
@@ -1288,7 +1288,7 @@ export const modelsOverflowFun = [
       },
       {
         id: 14,
-        img: "https://www.funmotors.com.br/upload/produtos/thumb/raptor-125-2-interno-034226.png",
+        img: "https://www.funmotors.com.br/wp-content/uploads/2023/02/raptor-125-2-interno-034226.png",
         model: "125",
         name: "125",
         description: "RAPTOR",
@@ -1297,7 +1297,7 @@ export const modelsOverflowFun = [
       },
       {
         id: 15,
-        img: "https://www.funmotors.com.br/upload/produtos/thumb/raptor-140-54-interno-035747.png",
+        img: "https://www.funmotors.com.br/wp-content/uploads/2023/03/raptor-140-54-interno-035747.png",
         model: "140",
         name: "140",
         description: "RAPTOR",
@@ -1313,7 +1313,7 @@ export const modelsOverflowFun = [
     image: [
       {
         id: 21,
-        img: "https://www.funmotors.com.br/upload/produtos/thumb/ligeirinho-49-88-interno-083033.png",
+        img: "https://www.funmotors.com.br/wp-content/uploads/2023/02/ligeirinho-49-88-interno-083033.png",
         model: "49",
         name: "49",
         description: "LIGEIRINHO",
@@ -1322,7 +1322,7 @@ export const modelsOverflowFun = [
       },
       {
         id: 22,
-        img: "https://www.funmotors.com.br/upload/produtos/thumb/avalanche-90-51-interno-071222.png",
+        img: "https://www.funmotors.com.br/wp-content/uploads/2023/02/avalanche-90-51-interno-071222.png",
         model: "90",
         name: "90",
         description: "AVALANCHE",
@@ -1331,7 +1331,7 @@ export const modelsOverflowFun = [
       },
       {
         id: 23,
-        img: "https://www.funmotors.com.br/upload/produtos/thumb/taurus-110-98-interno-012221.png",
+        img: "https://www.funmotors.com.br/wp-content/uploads/2023/02/taurus-110-98-interno-012221.png",
         model: "110",
         name: "110",
         description: "TAURUS",
@@ -1340,7 +1340,7 @@ export const modelsOverflowFun = [
       },
       {
         id: 24,
-        img: "https://www.funmotors.com.br/upload/produtos/thumb/temporario-92-interno-084426.png",
+        img: "https://www.funmotors.com.br/wp-content/uploads/2023/02/temporario-92-interno-084426.png",
         model: "110",
         name: "110",
         description: "RHINO",
@@ -1356,7 +1356,7 @@ export const modelsOverflowFun = [
     image: [
       {
         id: 31,
-        img: "https://www.funmotors.com.br/upload/produtos/thumb/alphacross-125-32-interno-111759.png",
+        img: "https://www.funmotors.com.br/wp-content/uploads/2023/02/alphacross-125-32-interno-111759.png",
         model: "125",
         name: "125",
         description: "ALPHACROSS",
@@ -1365,7 +1365,7 @@ export const modelsOverflowFun = [
       },
       {
         id: 33,
-        img: "https://www.funmotors.com.br/upload/produtos/thumb/alphacross-125-ex-34-interno-101117.png",
+        img: "https://www.funmotors.com.br/wp-content/uploads/2023/02/alphacross-125-ex-34-interno-101117.png",
         model: "125EX",
         name: "125EX",
         description: "ALPHACROSS",
@@ -1374,7 +1374,7 @@ export const modelsOverflowFun = [
       },
       {
         id: 33,
-        img: "https://www.funmotors.com.br/upload/produtos/thumb/farmer-200-51-interno-041731.png",
+        img: "https://www.funmotors.com.br/wp-content/uploads/2023/02/farmer-200-51-interno-041731.png",
         model: "200",
         name: "200",
         description: "FARMER",
@@ -1383,7 +1383,7 @@ export const modelsOverflowFun = [
       },
       {
         id: 34,
-        img: "https://www.funmotors.com.br/upload/produtos/thumb/farmer-300-23-interno-082829.png",
+        img: "https://www.funmotors.com.br/wp-content/uploads/2023/02/farmer-300-23-interno-082829.png",
         model: "300",
         name: "300",
         description: "FARMER",
