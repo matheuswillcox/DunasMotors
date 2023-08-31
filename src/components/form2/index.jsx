@@ -15,6 +15,7 @@ import { useState } from "react";
 import { toast } from "react-toastify";
 
 function Form2() {
+
   const schema = yup.object().shape({
     nome: yup.string().required("nome"),
     email: yup.string().email().required("email"),
@@ -26,6 +27,7 @@ function Form2() {
   });
 
   const [open, setOpen] = useState(false);
+  
 
   const handleClose = () => {
     setOpen(false);
@@ -37,18 +39,20 @@ function Form2() {
 
   const {
     register,
+    reset,
     handleSubmit,
     formState: { errors },
   } = useForm({ resolver: yupResolver(schema) });
 
   function sendForm(data) {
-    console.log(data);
+    reset()
 
     emailjs
       .send("service_3a18r4m", "template_dashv0u", data, "YBEYNaxIgeeB3ZfyP")
       .then(
         function (response) {
-          toast.success("Email enviado");
+          toast.success("Email enviado")
+          ;
         },
         function (error) {
           toast.error("Erro no envio do email");

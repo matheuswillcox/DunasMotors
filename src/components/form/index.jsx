@@ -2,6 +2,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import { ContainerForm } from "./styled";
+import { toast } from "react-toastify";
 import emailjs from "emailjs-com";
 import {
   Button,
@@ -50,18 +51,24 @@ function Form2() {
 
   const {
     register,
+    reset,
     handleSubmit,
     formState: { errors },
   } = useForm({ resolver: yupResolver(schema) });
 
   function sendForm(data) {
-    console.log(data);
+    reset()
 
     emailjs
       .send("service_3a18r4m", "template_dashv0u", data, "YBEYNaxIgeeB3ZfyP")
       .then(
-        function (response) {},
-        function (error) {}
+        function (response) {
+          toast.success("Email enviado")
+          ;
+        },
+        function (error) {
+          toast.error("Erro no envio do email");
+        }
       );
   }
 
