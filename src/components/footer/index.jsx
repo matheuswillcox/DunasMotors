@@ -8,9 +8,13 @@ function Footer() {
       <ContainerFooter>
         <div id="contato" className="containerFooter">
           <div className="dadosDeContato">
-            Avenida Senador Virgílio Távora, 2001, Aldeota, CEP 60.170-079
+          CEARÁ: Avenida Doutor Theberge, 2111 - lojas 02 e 07 - Presidente Kennedy, Fortaleza, CE - CEP 60.355-000
+        
           </div>
-          <div className="dadosDeContato"> Fortaleza/CE</div>
+          <div className="dadosDeContato">
+          PERNAMBUCO: Rua Visconde de Inhaúma, 951 - Maurício de Nassau, Caruaru, PE - CEP 55.014-410
+          </div>
+       
           <div className="dadosDeContato">E-mail: dunasmotors@hotmail.com</div>
           {/* <div className="dadosDeContato">Fone: 3322-3322</div> */}
           <div className="divEmojis">

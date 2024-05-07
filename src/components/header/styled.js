@@ -13,10 +13,11 @@ export const ContainerHeader = styled.div`
   }
   .WA{
     color: green;
+    
   }
   .emojis{
-    width: 30px;
-    height: 30px;
+    width: 80px;
+    height: 100px;
   }
 
   .top {
