@@ -14,7 +14,7 @@ function AssistenciaTecnica() {
       <p className="pSaibaMais">
         A política de pós-venda foi definida em observação à importância da
         oficina ser especializada no ramo do off road e primando pela máxima
-        atenção ao cliente, funcionando em nosso endereço.
+        atenção ao cliente, funcionando em nossos endereços.
 
       </p>
     </Container>
